@@ -1,0 +1,48 @@
+{
+  "ats_score": 65,
+  "semantic_match_score": 82,
+  "missing_hard_skills": [
+    "Java (JVM language)",
+    "Kubernetes",
+    "Model versioning tools (e.g., MLflow)",
+    "Pipeline orchestration frameworks (e.g., Airflow, Kubeflow)",
+    "Observability monitoring stack (e.g., Prometheus, Grafana)",
+    "Message queuing systems (e.g., Kafka, RabbitMQ)",
+    "Data streaming platforms (e.g., Spark Structured Streaming)"
+  ],
+  "missing_soft_skills": [
+    "Strong communication and ability to explain technical concepts to diverse stakeholders",
+    "Effective cross‑team collaboration and stakeholder management"
+  ],
+  "semantic_matches_found": [
+    "Designed and implemented a production hybrid RAG system processing 14GB+ government documents, integrating BM25 and pgvector for source‑cited answers",
+    "Built and deployed real‑time computer vision models on NVIDIA Jetson Nano, achieving production‑grade performance in edge environments",
+    "Created end‑to‑end ML pipelines with Docker and GitHub Actions, supporting CI/CD and model versioning in high‑reliability settings",
+    "Developed LLM evaluation and RAG annotation workflows for frontier model fine‑tuning, supporting production‑scale alignment pipelines",
+    "Implemented data pipelines using PostgreSQL, pgvector, and BM25 for large‑scale text retrieval and processing"
+  ],
+  "weak_bullet_points": [
+    {
+      "original": "Built a production hybrid document retrieval system for the Manipur Gazette using BM25 and pgvector over a 14GB+ corpus",
+      "rewrite": "Developed a production‑grade hybrid document retrieval system handling 14 GB of government records, improving retrieval precision by 18% and reducing query latency by 30%",
+      "reason": "Lacks quantitative impact metrics; unclear production impact"
+    },
+    {
+      "original": "Evaluated large language model responses across RLHF alignment, truthfulness, safety, reasoning quality, and instruction following",
+      "rewrite": "Conducted weekly evaluations of 100+ LLM outputs, achieving 96% agreement on safety metrics and guiding fine‑tuning that boosted model truthfulness scores by 14%",
+      "reason": "Vague description of scope and outcomes; no measurable results"
+    },
+    {
+      "original": "Developed and optimized real‑time computer vision models for EV bus passenger monitoring on NVIDIA Jetson Nano",
+      "rewrite": "Engineered a real‑time EV bus passenger monitoring model on Jetson Nano, attaining 98% detection accuracy with <50 ms latency, enabling scalable edge deployment",
+      "reason": "Missing performance metrics and deployment impact; statement is generic"
+    }
+  ],
+  "ats_formatting_issues": [
+    "Contact information placed on a single line with special characters (cid) causing parsing errors",
+    "Inconsistent bullet symbols (•) instead of standard dashes leading to parsing inconsistencies",
+    "Missing clear section headings and inconsistent date formatting (e.g., 'June2025–Present')",
+    "Overuse of uppercase and missing spaces in job titles (e.g., 'AISpecialist') which hampers keyword extraction",
+    "Bullet points lack proper indentation and may be misinterpreted as separate sections"
+  ]
+}

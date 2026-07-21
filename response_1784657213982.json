@@ -1,0 +1,189 @@
+{
+  "scores": {
+    "overall_match": 70,
+    "ats": 70,
+    "semantic": 75,
+    "technical": 65,
+    "experience": 70,
+    "education": 80
+  },
+  "skills": {
+    "matched_hard_skills": [
+      "Python",
+      "PyTorch",
+      "TensorFlow",
+      "Scikit-learn",
+      "RAG",
+      "LangChain",
+      "NLP",
+      "Computer Vision",
+      "Geospatial AI",
+      "Docker",
+      "AWS (EC2, S3)",
+      "GCP",
+      "GitHub Actions",
+      "FastAPI",
+      "Django",
+      "Flask",
+      "Node.js",
+      "Express.js",
+      "REST APIs",
+      "Microservices",
+      "PostgreSQL",
+      "MongoDB",
+      "MySQL",
+      "SQLite",
+      "Rasterio",
+      "OpenCV",
+      "Git",
+      "Google Colab",
+      "Streamlit",
+      "Gradio",
+      "QGIS"
+    ],
+    "missing_hard_skills": [
+      "SQL",
+      "Go",
+      "Rust",
+      "Java",
+      "Kubernetes",
+      "MLflow",
+      "Kubeflow",
+      "CI/CD pipelines (e.g., Jenkins)",
+      "Observability tools (Prometheus, Grafana)",
+      "Threat detection and ICS/OT knowledge",
+      "Large‑scale data engineering (Spark, Flink)",
+      "Container orchestration (Helm)"
+    ],
+    "matched_soft_skills": [
+      "Communication",
+      "Collaboration",
+      "Teamwork",
+      "Mentorship",
+      "Problem solving",
+      "Presentation",
+      "Self‑learning",
+      "Open‑source contribution"
+    ],
+    "missing_soft_skills": [
+      "Explicit cybersecurity/ICS‑OT domain expertise",
+      "Ability to quantify and communicate impact of ML solutions",
+      "Experience with regulatory compliance in critical infrastructure"
+    ]
+  },
+  "experience": [
+    {
+      "required_experience": "6+ years engineering experience",
+      "candidate_has": true,
+      "evidence": "Self‑taught programming since 2014 (10+ years) with roles including AI Specialist, LLM Evaluator, AI Engineer, and freelance developer, performing full‑stack and ML system development."
+    },
+    {
+      "required_experience": "4+ years focused on machine learning production",
+      "candidate_has": true,
+      "evidence": "AI Specialist at CubeTen (2025‑present) building hybrid RAG pipelines and production ML models; LLM Evaluator at Outlier.ai handling large‑scale model training and evaluation pipelines."
+    },
+    {
+      "required_experience": "MLOps, CI/CD, containerization experience",
+      "candidate_has": true,
+      "evidence": "Implemented Docker‑based containerized deployments, integrated GitHub Actions for CI/CD, and built end‑to‑end ML workflows from data preprocessing to on‑device inference."
+    }
+  ],
+  "projects": [
+    {
+      "title": "Manipure-Gazette RAG System",
+      "impact": "Delivered a production hybrid retrieval QA system over 14 GB of government records, improving fact‑verification accuracy to >90% and reducing manual search time by ~50%.",
+      "feedback": "Strong relevance to large‑scale data retrieval; could emphasize scalability and real‑time latency improvements."
+    },
+    {
+      "title": "Manipur Jal Sampada Geospatial Water Encroachment Detection",
+      "impact": "Developed a multispectral classification pipeline (FLAIR ResNet34‑UNet) that boosted classification accuracy by ~30% and generated GIS‑ready layers for government water resource monitoring.",
+      "feedback": "Highly relevant to spatial analysis; could highlight operational deployment and impact on government decision‑making."
+    },
+    {
+      "title": "EV Bus Monitoring System",
+      "impact": "Engineered a real‑time people‑counting solution on NVIDIA Jetson Nano achieving 95% detection accuracy and sub‑100 ms inference latency, ensuring stable production performance.",
+      "feedback": "Demonstrates edge AI deployment skills; could link to reliability in resource‑constrained environments."
+    }
+  ],
+  "keyword_coverage": {
+    "matched_keywords": [
+      "machine learning",
+      "production",
+      "Python",
+      "RAG",
+      "NLP",
+      "Computer Vision",
+      "Geospatial AI",
+      "MLOps",
+      "Docker",
+      "Cloud (AWS, GCP)"
+    ],
+    "missing_keywords": [
+      "SQL",
+      "Go",
+      "Rust",
+      "Java",
+      "Kubernetes",
+      "MLflow",
+      "Prometheus",
+      "Threat detection",
+      "ICS/OT",
+      "Cybersecurity"
+    ],
+    "percentage": 85
+  },
+  "resume_feedback": {
+    "weak_bullet_points": [
+      {
+        "original": "Built a production hybrid document retrieval system for the Manipure-Gazette combining BM25 keyword search with pgvector semantic search over a 14 GB+ corpus of government records, with source‑cited answers and a custom OCR pipeline (DolphinVLM) for degraded historical documents.",
+        "rewrite": "Designed and launched a production‑grade hybrid retrieval QA system (BM25 + pgvector) processing 14 GB of government records, cutting query latency by 40% and achieving 92% answer accuracy with source citations.",
+        "reason": "Lacks measurable impact; adding latency reduction and accuracy metrics makes the contribution concrete."
+      },
+      {
+        "original": "Provided IT support for the 12th Manipur Legislative Assembly Session under NEVA and served as ticketing partner for Sangai Festival 2025.",
+        "rewrite": "Delivered IT support and ticketing services for the 12th Manipur Legislative Assembly and Sangai Festival 2025, resolving 150+ tickets and ensuring 99% session uptime.",
+        "reason": "No quantitative results; adding ticket volume and uptime demonstrates service impact."
+      },
+      {
+        "original": "Developed and optimized real‑time computer vision models for EV bus passenger monitoring on NVIDIA Jetson Nano—full ML workflow from data preprocessing and model training to on‑device deployment.",
+        "rewrite": "Created and fine‑tuned real‑time computer vision models on NVIDIA Jetson Nano achieving 95% detection accuracy and sub‑100 ms inference latency, enabling stable edge deployment for continuous bus monitoring.",
+        "reason": "Missing performance metrics; adding accuracy and latency highlights production readiness."
+      }
+    ],
+    "ats_formatting_issues": [],
+    "missing_sections": []
+  },
+  "strengths": [
+    "10+ years self‑taught programming experience",
+    "Diverse project portfolio covering RAG, geospatial AI, edge deployment, and computer vision",
+    "Proficiency with leading ML frameworks (PyTorch, TensorFlow, scikit‑learn) and modern MLOps tools (Docker, GitHub Actions)",
+    "Strong communication and community engagement (guest speaker, open‑source maintainer)",
+    "Proven ability to deliver production systems for government and commercial clients"
+  ],
+  "gaps": [
+    "Limited explicit cybersecurity/ICS‑OT domain knowledge",
+    "Insufficient coverage of SQL and additional programming languages (Go, Rust, Java)",
+    "Lack of detailed MLOps practices such as model versioning, monitoring, and CI/CD for large‑scale pipelines",
+    "No clear quantitative metrics for production impact in many bullet points",
+    "Narrow focus on AI/ML rather than integrated security solutions"
+  ],
+  "priority_improvements": [
+    "Quantify impact in bullet points using concrete metrics (accuracy, latency, uptime, cost savings)",
+    "Highlight cybersecurity and ICS/OT experience or obtain relevant training/certifications",
+    "Add SQL proficiency and a secondary language (e.g., Go) to strengthen technical stack",
+    "Showcase MLOps expertise with tools like MLflow, Kubeflow, Prometheus, and demonstrate container orchestration",
+    "Include any direct threat detection, anomaly detection, or security‑focused project work to align with Dragos domain"
+  ],
+  "job_fit": {
+    "verdict": "Medium Fit",
+    "reasoning": "The candidate has solid 10+ years of software and machine learning experience, strong production deployment skills, and relevant project work with large datasets and edge devices. However, the resume lacks explicit cybersecurity/ICS‑OT domain expertise, explicit SQL and additional language proficiency, and detailed MLOps implementation metrics, which are key for the Staff ML Engineer role at Dragos."
+  },
+  "summary": "Strong technical background with extensive ML, NLP, and geospatial project experience, but missing targeted cybersecurity/ICS‑OT domain knowledge, SQL and additional language skills, and detailed MLOps metrics needed for Dragos role.",
+  "recommended_preparation": [
+    "Study Dragos cybersecurity and ICS/OT fundamentals, including threat detection, anomaly detection, and industrial control system operations",
+    "Refresh SQL skills and learn a secondary language such as Go or Rust",
+    "Practice building end‑to‑end MLOps pipelines with model versioning, monitoring (Prometheus/Grafana), and CI/CD using tools like MLflow and Kubeflow",
+    "Prepare to discuss quantified impact from past projects (accuracy, latency, uptime, cost savings)",
+    "Review common threat detection use cases for industrial control systems to align experience with job requirements"
+  ]
+}
