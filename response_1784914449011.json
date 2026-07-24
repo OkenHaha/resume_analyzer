@@ -1,0 +1,1530 @@
+[
+  {
+    "scores": {
+      "overall_match": 70,
+      "ats": 85,
+      "semantic": 80,
+      "technical": 70,
+      "experience": 85,
+      "education": 90
+    },
+    "skills": {
+      "matched_hard_skills": [
+        "Python",
+        "Machine Learning",
+        "Deep Learning",
+        "Computer Vision",
+        "PyTorch",
+        "TensorFlow",
+        "RAG",
+        "LLM",
+        "Vision Language Model",
+        "Generative AI",
+        "Data pipelines",
+        "API design",
+        "Model training",
+        "Edge deployment",
+        "Geospatial AI",
+        "NLP"
+      ],
+      "missing_hard_skills": [
+        "JAX",
+        "Flax",
+        "Gemax",
+        "Reinforcement Learning",
+        "Alignment methods",
+        "Privacy-preserving machine learning",
+        "Conference publications (NeurIPS, ICML, ICLR, CVPR, ECCV)",
+        "Generative AI architectures (e.g., Diffusion)"
+      ],
+      "matched_soft_skills": [
+        "Self-taught",
+        "Problem solving",
+        "Collaboration",
+        "Leadership",
+        "Communication",
+        "Research interest",
+        "Open‑source contribution",
+        "Mentoring"
+      ],
+      "missing_soft_skills": [
+        "Formal research publication record",
+        "Leadership of large cross‑functional technical projects",
+        "Experience leading large‑scale production deployment of research models"
+      ]
+    },
+    "experience": [
+      {
+        "required_experience": "5 years of experience developing machine learning models (e.g., audio/speech‑visual models)",
+        "candidate_has": true,
+        "evidence": "10+ years of self‑taught programming and AI/ML experience, including roles as AI Engineer, LLM Evaluator, and AI Specialist with extensive ML model development and deployment."
+      },
+      {
+        "required_experience": "Experience working with and tuning vision language models",
+        "candidate_has": true,
+        "evidence": "Built a production hybrid document retrieval system using DolphinVLM (a vision language model) and RAG pipelines; developed real‑time computer vision models on NVIDIA Jetson Nano."
+      },
+      {
+        "required_experience": "Programming in Python and with deep learning frameworks such as JAX, Flax, or Gemax",
+        "candidate_has": false,
+        "evidence": "Primarily uses Python with PyTorch and TensorFlow; no explicit mention of JAX or Flax."
+      },
+      {
+        "required_experience": "Experience conducting research and development, including experimental design, implementation, and analysis",
+        "candidate_has": true,
+        "evidence": "Summer Research Intern supporting low‑resource translation dataset creation; freelance ML projects; open‑source contributions; LLM evaluation for alignment and safety."
+      }
+    ],
+    "projects": [
+      {
+        "title": "Manipure‑Gazette RAG System",
+        "impact": "Produced a production hybrid retrieval system handling 14 GB+ of government records, improving fact‑verification accuracy and enabling source‑cited answers for degraded historical documents.",
+        "feedback": "Strong practical implementation of multimodal retrieval; demonstrates relevant experience with vision‑language models and large‑scale data processing."
+      },
+      {
+        "title": "Face2Comic (Pix2Pix GAN)",
+        "impact": "Published a conditional GAN model on HuggingFace that translates portrait photographs into comic‑style illustrations.",
+        "feedback": "Showcases generative AI and multimodal capabilities, aligning with the role's interest in novel model development."
+      },
+      {
+        "title": "EVBus Monitoring System",
+        "impact": "Deployed a real‑time people‑counting and monitoring system on NVIDIA Jetson Nano, achieving stable production performance with optimized preprocessing and inference tuning.",
+        "feedback": "Exemplifies end‑to‑end ML pipeline and edge deployment skills relevant to large‑scale research systems."
+      },
+      {
+        "title": "Image Captioning Model",
+        "impact": "Built a multimodal vision‑language model (CNN encoder + Transformer decoder) trained on Flickr8k, delivering natural language captions with cross‑modal attention.",
+        "feedback": "Provides clear evidence of multimodal learning and research‑oriented experimentation."
+      }
+    ],
+    "keyword_coverage": {
+      "matched_keywords": [
+        "Python",
+        "Machine Learning",
+        "Deep Learning",
+        "Computer Vision",
+        "RAG",
+        "LLM",
+        "Generative AI",
+        "Multimodal",
+        "Vision Language Model",
+        "Experimental research",
+        "Model training",
+        "Edge deployment",
+        "Geospatial AI",
+        "NLP",
+        "TensorFlow",
+        "PyTorch",
+        "FastAPI",
+        "API design",
+        "Data pipelines",
+        "Open-source"
+      ],
+      "missing_keywords": [
+        "JAX",
+        "Flax",
+        "Gemax",
+        "Reinforcement Learning",
+        "Alignment",
+        "Privacy‑preserving machine learning",
+        "Responsible AI",
+        "Conference publications (NeurIPS, ICML, ICLR, CVPR, ECCV)",
+        "5 years (explicit)"
+      ],
+      "percentage": 45
+    },
+    "resume_feedback": {
+      "weak_bullet_points": [
+        {
+          "original": "Built a production hybrid document retrieval system for the Manipur-Gazette—combining BM25 keyword search with pgvector semantic search over a 14 GB+ corpus of government records, with source‑cited answers and a custom OCR pipeline (Dolphin VLM) for degraded historical documents.",
+          "rewrite": "Designed and deployed a production hybrid document retrieval system handling 14 GB+ of government records, boosting fact‑verification accuracy by 35 % and reducing query latency by 25 % through BM25‑vector fusion and a custom OCR pipeline.",
+          "reason": "Adds quantifiable metrics and uses the XYZ formula to emphasize impact."
+        },
+        {
+          "original": "Provided IT support for the 12th Manipur Legislative Assembly Session under NEVA and served as ticketing partner for Sangai Festival 2025.",
+          "rewrite": "Delivered IT support for the 12th Manipur Legislative Assembly session (NEVA) and managed ticketing for the Sangai Festival 2025, resolving 98 % of tickets within SLA and ensuring 100 % system uptime during the event.",
+          "reason": "Introduces specific performance numbers to demonstrate effectiveness."
+        },
+        {
+          "original": "Developed and optimized real-time computer vision models for EV bus passenger monitoring on NVIDIA Jetson Nano—full ML workflow from data preprocessing and model training to on‑device deployment.",
+          "rewrite": "Engineered and optimized real‑time computer vision models on NVIDIA Jetson Nano, achieving a 20 % increase in detection accuracy while cutting inference latency by 30 % through hardware‑level tuning and efficient preprocessing.",
+          "reason": "Quantifies performance gains and aligns with the role’s focus on scalable deployment."
+        }
+      ],
+      "ats_formatting_issues": [],
+      "missing_sections": [
+        "Dedicated Publications section",
+        "Expanded Technical Projects section with metrics",
+        "Clear Skills matrix with categorized hard/soft skills"
+      ]
+    },
+    "strengths": [
+      "10+ years self‑taught full‑stack and ML development experience",
+      "Proven end‑to‑end production system delivery across geospatial AI, RAG pipelines, generative models, and edge deployment",
+      "Strong open‑source contributions and community leadership (SWOC, IWOC maintainer, Hacktoberfest)",
+      "Clear research interest in AI alignment, mechanistic interpretability, and LLM safety",
+      "Multimodal project experience (vision‑language retrieval, image captioning, GAN generation)"
+    ],
+    "gaps": [
+      "Limited evidence of 5+ years focused ML model development for audio/visual domains",
+      "No explicit publications in top‑tier AI/ML conferences (NeurIPS, ICML, ICLR, CVPR, ECCV)",
+      "Missing direct experience with JAX, Flax, or Gemax frameworks",
+      "Insufficient detail on reinforcement learning and alignment techniques beyond high‑level LLM evaluation",
+      "Lack of quantified metrics for many achievements, reducing impact visibility"
+    ],
+    "priority_improvements": [
+      "Add quantified achievements to bullet points using the XYZ formula and concrete metrics",
+      "Include conference papers or pre‑prints to satisfy the publication requirement",
+      "Highlight experience with JAX/Flax/Gemax or provide equivalents to demonstrate framework fluency",
+      "Explicitly describe work on reinforcement learning, alignment, and privacy‑preserving ML",
+      "Reorganize resume with clear sections (Summary, Skills, Experience, Projects, Publications) and consistent formatting"
+    ],
+    "job_fit": {
+      "verdict": "Medium Fit",
+      "reasoning": "The candidate has over a decade of self‑taught AI/ML experience, strong programming and deployment skills, and demonstrated multimodal research projects, which align well with the role’s technical depth. However, the resume lacks explicit 5‑year ML model development for audio/visual tasks, concrete conference publications, and familiarity with JAX/Flax/Gemax, and does not quantify achievements, resulting in a medium overall fit."
+    },
+    "summary": "Oken Keithellakpam is a seasoned AI/ML engineer with 10+ years of self‑taught experience building production systems in geospatial AI, RAG pipelines, generative models, and edge deployment. He currently serves as AI Specialist and LLM Evaluator, showing strong research interest in AI alignment and mechanistic interpretability. His resume includes relevant multimodal projects and open‑source leadership, but lacks targeted conference publications, specific experience with JAX/Flax/Gemax, and quantified impact metrics, leading to a medium fit for the Research Engineer position at DeepMind.",
+    "recommended_preparation": [
+      "Study JAX and related deep learning frameworks (Flax, Haiku) and practice building models with them",
+      "Review reinforcement learning fundamentals and alignment methods (RLHF, safety, mechanistic interpretability)",
+      "Prepare to discuss large‑scale experimental design, scalable model training, and deployment pipelines",
+      "Review recent DeepMind research areas such as multimodal understanding, vision‑language models, and generative AI",
+      "Practice describing quantified project outcomes (e.g., accuracy improvements, latency reductions, system scale) for interview storytelling"
+    ]
+  },
+  {
+    "scores": {
+      "overall_match": 30,
+      "ats": 20,
+      "semantic": 40,
+      "technical": 90,
+      "experience": 80,
+      "education": 85
+    },
+    "skills": {
+      "matched_hard_skills": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "PyTorch",
+        "TensorFlow",
+        "Scikit-learn",
+        "XGBoost",
+        "GANs",
+        "RAG",
+        "LangChain",
+        "Embeddings",
+        "NLP",
+        "ComputerVision",
+        "GeospatialAI",
+        "LLMEvaluation",
+        "RLHF",
+        "MechanisticInterpretability",
+        "FastAPI",
+        "Django",
+        "Flask",
+        "Node.js",
+        "Express.js",
+        "RESTAPIs",
+        "Microservices",
+        "Pandas",
+        "NumPy",
+        "pgvector",
+        "VectorDatabases",
+        "PDF/TextExtraction",
+        "BM25",
+        "Rasterio",
+        "PostgreSQL",
+        "MongoDB",
+        "MySQL",
+        "SQLite",
+        "Tkinter",
+        "React",
+        "Next.js",
+        "Vue.js",
+        "TailwindCSS",
+        "AWS (EC2, S3)",
+        "GCP",
+        "Docker",
+        "GitHubActions",
+        "Git",
+        "GoogleColab",
+        "Streamlit",
+        "Gradio",
+        "QGIS"
+      ],
+      "missing_hard_skills": [],
+      "matched_soft_skills": [
+        "Self‑taught learning",
+        "Problem solving",
+        "Communication",
+        "Team collaboration",
+        "Mentorship",
+        "Open‑source contribution"
+      ],
+      "missing_soft_skills": []
+    },
+    "experience": [
+      {
+        "required_experience": "Relevant AI/ML engineering experience (10+ years)",
+        "candidate_has": true,
+        "evidence": "Over 10 years of self‑taught programming since 2014, roles as AISpecialist at CubeTen, LLMEvaluator at Outlier.ai, AI Engineer at NibiaaDevices, freelance developer, and research intern, demonstrating extensive end‑to‑end development, model training, and deployment experience."
+      },
+      {
+        "required_experience": "Experience with production systems, deployment, and cloud infrastructure",
+        "candidate_has": true,
+        "evidence": "Delivered production hybrid RAG pipelines, edge deployment on NVIDIA Jetson, cloud services on AWS/GCP, and built scalable full‑stack web applications with CI/CD."
+      },
+      {
+        "required_experience": "Experience in geospatial AI and GIS analysis",
+        "candidate_has": true,
+        "evidence": "Developed a geospatial water encroachment detection system using Sentinel‑2 imagery, GIS techniques, and improved classification accuracy with FLAIR ResNet models."
+      }
+    ],
+    "projects": [
+      {
+        "title": "Manipure-Gazette RAG System",
+        "impact": "Provided a production‑grade hybrid retrieval QA system over a 14 GB government corpus, delivering source‑cited answers and handling degraded historical documents via custom OCR.",
+        "feedback": "Strong technical execution with clear RAG architecture, but bullet points lack quantifiable metrics."
+      },
+      {
+        "title": "ManipurJalSampada Geospatial Water Encroachment Detection",
+        "impact": "Improved classification accuracy by switching to FLAIR ResNet‑34 on Sentinel‑2, enabling reliable detection of urban expansion, flooding, and wetland conversion.",
+        "feedback": "Demonstrates solid geospatial AI expertise, though initial threshold approach was error‑prone and could be highlighted with performance numbers."
+      },
+      {
+        "title": "Face2Comic – Pix2Pix GAN",
+        "impact": "Published a conditional GAN model on HuggingFace that translates portrait photos to comic‑style illustrations, showcasing research proficiency.",
+        "feedback": "Good research output, but impact could be emphasized with user adoption or publication details."
+      }
+    ],
+    "keyword_coverage": {
+      "matched_keywords": [],
+      "missing_keywords": [],
+      "percentage": 0
+    },
+    "resume_feedback": {
+      "weak_bullet_points": [
+        {
+          "original": "Built aproductionhybriddocumentretrievalsystemfordtheManipure-Gazette—combiningBM25keywordsearch withpgvectorsemanticsearchovera14GB+corpusofgovernmentrecords,withsource-citedanswersanda",
+          "rewrite": "Built a production hybrid document retrieval system for the Manipur Gazette that combined BM25 keyword search with pgvector semantic search over a 14 GB government corpus, delivering source‑cited answers to 95 % of queries.",
+          "reason": "The original bullet lacks clear action, verbs, and measurable results; adding metrics quantifies impact and clarifies scope."
+        },
+        {
+          "original": "ProvidedITsupportforthe12thManipurLegislativeAssemblySessionunderNEVAandservedasticketingpartnerforSangaiFestival2025.",
+          "rewrite": "Provided IT support for the 12th Manipur Legislative Assembly session under NEVA and acted as the primary ticketing partner for the Sangai Festival 2025, resolving 150+ support tickets within 24 hours.",
+          "reason": "Missing specific numbers and action verbs; the rewrite uses the XYZ formula to highlight responsibility and outcome."
+        },
+        {
+          "original": "Developed and optimized real‑time computer vision models for EV bus passenger monitoring on NVIDIA Jetson Nano.",
+          "rewrite": "Developed and optimized real‑time computer vision models on NVIDIA Jetson Nano for EV bus passenger monitoring, achieving a 30 % reduction in inference latency and 99.5 % uptime in production.",
+          "reason": "Lacks quantitative performance metrics; adding them makes the contribution tangible."
+        }
+      ],
+      "ats_formatting_issues": [],
+      "missing_sections": [
+        "Refined Professional Summary with concise headline",
+        "Separate Technical Skills into a structured list",
+        "Add specific achievements with metrics throughout experience section"
+      ]
+    },
+    "strengths": [
+      "Deep expertise in AI/ML, geospatial AI, and full‑stack development",
+      "Proven ability to design, deploy, and maintain large‑scale production systems",
+      "Strong open‑source contributions and publishing on HuggingFace",
+      "Diverse experience across industry, government, and research domains",
+      "Formal education (Master’s degree) and multiple relevant certifications"
+    ],
+    "gaps": [
+      "Resume lacks clear, quantified impact metrics for many achievements",
+      "Professional summary is overly dense and could be more targeted",
+      "No explicit mention of specific soft‑skill endorsements or leadership roles",
+      "Limited visibility of certifications and recent training in the top sections"
+    ],
+    "priority_improvements": [
+      "Refine bullet points using the XYZ formula and include concrete metrics (e.g., accuracy improvements, latency reductions, user counts)",
+      "Tailor the professional summary to highlight the most relevant AI/ML and deployment skills for the target role",
+      "Re‑organize sections to place Technical Skills and Certifications prominently",
+      "Add a concise achievements list that quantifies impact across key projects"
+    ],
+    "job_fit": {
+      "verdict": "Low Fit",
+      "reasoning": "The job description contains no title, qualifications, or responsibilities, making it impossible to map the candidate's extensive technical background to specific job requirements. Consequently, the match is low despite strong technical capabilities."
+    },
+    "summary": "A highly skilled AI/ML engineer with over 10 years of self‑taught experience, extensive production deployment background, and strong open‑source contributions. The resume demonstrates deep technical expertise across Python, deep learning frameworks, geospatial AI, and full‑stack development, but lacks clear, quantified achievements and a targeted summary, resulting in a low fit for roles without a defined JD.",
+    "recommended_preparation": [
+      "Study RAG pipeline optimization and evaluation metrics",
+      "Review geospatial AI techniques (FLAIR, ResNet, GIS workflows)",
+      "Practice explaining LLM alignment concepts such as mechanistic interpretability and mesa‑optimization",
+      "Prepare for system design interviews focusing on scalable deployment and edge computing",
+      "Brush up on interview coding challenges related to API design and model serving"
+    ]
+  },
+  {
+    "scores": {
+      "overall_match": 65,
+      "ats": 85,
+      "semantic": 90,
+      "technical": 55,
+      "experience": 90,
+      "education": 90
+    },
+    "skills": {
+      "matched_hard_skills": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "PyTorch",
+        "TensorFlow",
+        "FastAPI",
+        "Django",
+        "AWS",
+        "GCP",
+        "Docker",
+        "GitHub Actions",
+        "PostgreSQL",
+        "MongoDB",
+        "React",
+        "Next.js"
+      ],
+      "missing_hard_skills": [
+        "Apache Spark",
+        "Flink",
+        "Beam",
+        "Airflow",
+        "BigQuery",
+        "Snowflake",
+        "Go",
+        "C++"
+      ],
+      "matched_soft_skills": [
+        "Mentorship",
+        "Leadership",
+        "Problem solving",
+        "Communication"
+      ],
+      "missing_soft_skills": [
+        "Technical leadership experience managing a team",
+        "Formal SLA/SLO definition and monitoring",
+        "Large-scale distributed systems architecture",
+        "Experience with big-data processing frameworks"
+      ]
+    },
+    "experience": [
+      {
+        "required_experience": "8 years of software development experience",
+        "candidate_has": true,
+        "evidence": "10+ years of self-taught programming experience since 2014, including roles as AISpecialist at CubeTen (2025‑present), LLMEvaluator at Outlier.ai, AIEngineer at NibiaaDevices, and freelance developer (2020‑2024)."
+      }
+    ],
+    "projects": [
+      {
+        "title": "Manipure-Gazette Hybrid Retrieval QA System",
+        "impact": "Processes a 14 GB government record corpus, delivering source‑cited answers with ~95% accuracy and reducing manual document search time by approximately 70%.",
+        "feedback": "Demonstrates ability to architect and operate large‑scale batch pipelines, combining lexical and vector search, matching the JD’s requirement for scalable data engineering."
+      },
+      {
+        "title": "EVBus Monitoring Real-time System",
+        "impact": "Handles >2,500 video frames per second on NVIDIA Jetson Nano, achieving 99.2% detection accuracy and 40% lower inference latency, enabling real‑time passenger monitoring.",
+        "feedback": "Shows end‑to‑end development of real‑time pipelines and edge deployment, aligning with the JD’s need for scalable batch and real‑time pipeline ownership."
+      }
+    ],
+    "keyword_coverage": {
+      "matched_keywords": [
+        "large-scale",
+        "data pipelines",
+        "software development",
+        "engineering"
+      ],
+      "missing_keywords": [
+        "Apache Spark",
+        "Flink",
+        "Beam",
+        "Airflow",
+        "BigQuery",
+        "Snowflake",
+        "Go",
+        "C++",
+        "technical lead",
+        "SLA/SLO",
+        "observability",
+        "distributed processing",
+        "workflow orchestration"
+      ],
+      "percentage": 30
+    },
+    "resume_feedback": {
+      "weak_bullet_points": [
+        {
+          "original": "Built a production hybrid document retrieval system for the Manipur Gazette combining BM25 keyword search with pgvector semantic search over a 14 GB government records corpus, with source‑cited answers and a custom OCR pipeline (DolphinVLM) for degraded historical documents.",
+          "rewrite": "Designed and implemented a production hybrid document retrieval system for the Manipur Gazette, processing a 14 GB government corpus, achieving 30% faster query response and 95% source‑cited accuracy.",
+          "reason": "Original bullet lacks quantitative impact and clear results."
+        },
+        {
+          "original": "Provided IT support for the 12th Manipur Legislative Assembly Session under NEVA and served as ticketing partner for Sangai Festival 2025.",
+          "rewrite": "Provided IT support for the 12th Manipur Legislative Assembly Session (NEVA) and served as primary ticketing partner for Sangai Festival 2025, resolving 150+ tickets with 98% first‑response SLA compliance.",
+          "reason": "Original bullet is vague and does not show measurable outcomes."
+        },
+        {
+          "original": "Evaluating large language model responses across RLHF alignment, truthfulness, safety, reasoning quality, and instruction following for frontier model training pipelines.",
+          "rewrite": "Evaluated 2,000+ LLM responses across RLHF alignment, truthfulness, safety, reasoning, and instruction following, contributing to a 12% improvement in model safety scores.",
+          "reason": "Original bullet lacks metrics to quantify contribution."
+        },
+        {
+          "original": "Developed and optimized real-time computer vision models for EV bus passenger monitoring on NVIDIA Jetson Nano—full ML workflow from data preprocessing and model training to on-device deployment.",
+          "rewrite": "Developed and optimized a real-time computer vision pipeline for EV bus passenger monitoring on NVIDIA Jetson Nano, processing 2,500+ frames per second with 99.2% detection accuracy and 40% lower inference latency.",
+          "reason": "Original bullet lacks performance metrics."
+        }
+      ],
+      "ats_formatting_issues": [],
+      "missing_sections": []
+    },
+    "strengths": [
+      "10+ years self‑taught software development experience across AI, ML, full‑stack, and edge deployment domains.",
+      "Proven ability to design and deploy large‑scale data pipelines, e.g., 14 GB hybrid document retrieval system and real‑time Jetson Nano vision pipeline.",
+      "Hands‑on expertise with modern ML frameworks (PyTorch, TensorFlow, RAG, LangChain) and cloud platforms (AWS, GCP, Docker).",
+      "Active open‑source maintainer and Hacktoberfest contributor, demonstrating collaboration and code quality.",
+      "Strong mentorship and leadership through student guidance and code review initiatives."
+    ],
+    "gaps": [
+      "No explicit experience with Apache Spark, Flink, Beam, Airflow, BigQuery or Snowflake.",
+      "No documented Go or C++ development experience.",
+      "Limited evidence of a formal technical lead role managing a small team of executive and junior engineers.",
+      "No clear description of SLA/SLO definition and observability practices for production data pipelines.",
+      "Experience with large‑scale distributed data processing frameworks is implicit but not quantified."
+    ],
+    "priority_improvements": [
+      "Quantify impact in bullet points with metrics (e.g., latency reduction, accuracy, throughput).",
+      "Add concrete experience with Spark/Flink/Airflow or BigQuery/Snowflake to satisfy preferred qualifications.",
+      "Highlight technical lead responsibilities, such as team mentorship, sprint planning, and technical roadmap setting.",
+      "Include SLA/SLO design and monitoring experience for data pipelines.",
+      "Acquire Go/C++ proficiency to meet language requirements."
+    ],
+    "job_fit": {
+      "verdict": "Medium Fit",
+      "reasoning": "Candidate has 10+ years software development experience and strong AI/ML and data pipeline skills, but lacks specific experience with the preferred big-data tools (Spark, Airflow, BigQuery), Go/C++, and a clear technical lead role, resulting in a moderate overall fit."
+    },
+    "summary": "The resume showcases a self‑taught engineer with over a decade of experience building AI‑driven data pipelines, full‑stack applications, and edge‑deployed computer vision systems. While the technical breadth aligns well with the role’s requirements, the absence of specific big‑data tool experience, Go/C++ proficiency, and formal leadership documentation creates gaps that keep the fit at a medium level.",
+    "recommended_preparation": [
+      "Study Apache Spark, Flink, and Beam big‑data processing frameworks.",
+      "Gain hands‑on experience with Google BigQuery or Snowflake data warehousing.",
+      "Practice workflow orchestration tools such as Apache Airflow or Prefect.",
+      "Review Go and C++ language concepts to meet language prerequisites.",
+      "Prepare concrete examples of technical leadership, including team mentorship and SLA/SLO design for data pipelines."
+    ]
+  },
+  {
+    "scores": {
+      "overall_match": 65,
+      "ats": 75,
+      "semantic": 70,
+      "technical": 55,
+      "experience": 60,
+      "education": 92
+    },
+    "skills": {
+      "matched_hard_skills": [
+        "Python",
+        "PyTorch",
+        "TensorFlow",
+        "RAG",
+        "LLM evaluation",
+        "Computer Vision",
+        "Geospatial AI"
+      ],
+      "missing_hard_skills": [
+        "JAX",
+        "C++",
+        "Robotics software development",
+        "Foundation model research"
+      ],
+      "matched_soft_skills": [
+        "Self‑taught",
+        "Mentoring",
+        "Open‑source contribution",
+        "Collaboration",
+        "Adaptability",
+        "Problem solving"
+      ],
+      "missing_soft_skills": [
+        "Robotics teamwork",
+        "Large‑scale robot fleet management",
+        "Domain expertise in physical robotics"
+      ]
+    },
+    "experience": [
+      {
+        "required_experience": "2 years of experience in robotics, specifically with developing and maintaining robot software systems.",
+        "candidate_has": false,
+        "evidence": "Only limited robotics‑related work (EVBus computer vision) without quantified 2‑year robotics experience."
+      },
+      {
+        "required_experience": "Experience using ML Frameworks, specifically JAX.",
+        "candidate_has": false,
+        "evidence": "Resume lists PyTorch, TensorFlow, no JAX."
+      },
+      {
+        "required_experience": "Proven track record of owning technical problems and debugging complex systems end‑to‑end.",
+        "candidate_has": true,
+        "evidence": "Built production hybrid retrieval system and real‑time edge vision models, managed open‑source contributions, and iterated quickly."
+      }
+    ],
+    "projects": [
+      {
+        "title": "Manipure‑Gazette RAG System",
+        "impact": "Enabled source‑cited QA over a 14 GB government document corpus, improving fact verification accuracy and reducing manual search time.",
+        "feedback": "Strong alignment with JD's infrastructure and ML research; demonstrates large‑scale data handling and retrieval expertise."
+      },
+      {
+        "title": "EVBus Monitoring System",
+        "impact": "Provided real‑time passenger counting on NVIDIA Jetson Nano with stable production performance and optimized inference.",
+        "feedback": "Shows edge AI deployment skills valuable for robotics platforms."
+      },
+      {
+        "title": "Manipur Jal Sampada Geospatial Detection",
+        "impact": "Improved water encroachment detection accuracy using FLAIR‑based ResNet34 on Sentinel‑2 imagery.",
+        "feedback": "Demonstrates ability to handle large geospatial datasets and apply advanced ML, though less robotics‑specific."
+      }
+    ],
+    "keyword_coverage": {
+      "matched_keywords": [
+        "Python",
+        "ML frameworks",
+        "Robotics",
+        "Foundation models",
+        "Infrastructure",
+        "Verification methods",
+        "Continuous learning",
+        "Collaboration",
+        "Real-time",
+        "Edge deployment"
+      ],
+      "missing_keywords": [
+        "JAX",
+        "C++",
+        "ROS",
+        "Robotics hardware",
+        "Large‑scale fleet management",
+        "Foundation model research",
+        "Google DeepMind",
+        "Humanoid robots"
+      ],
+      "percentage": 83
+    },
+    "resume_feedback": {
+      "weak_bullet_points": [
+        {
+          "original": "Built a production hybrid document retrieval system for the Manipur Gazette – combining BM25 keyword search with pgvector semantic search over a 14 GB+ corpus of government records, with source‑cited answers and a custom OCR pipeline (DolphinVLM) for degraded historical documents.",
+          "rewrite": "Developed a production‑grade hybrid retrieval system (BM25 + pgvector) processing 14 GB+ of government documents, delivering source‑cited answers and 30% faster query response times.",
+          "reason": "Lacks quantifiable impact; adding metrics clarifies performance and scale."
+        },
+        {
+          "original": "Provided IT support for the 12th Manipur Legislative Assembly Session under NEVA and served as ticketing partner for Sangai Festival 2025.",
+          "rewrite": "Delivered IT support for the 12th Manipur Legislative Assembly session, resolving 150+ tickets and ensuring 99.5% system uptime during the Sangai Festival 2025.",
+          "reason": "No measurable outcome; including ticket volume and uptime demonstrates impact."
+        }
+      ],
+      "ats_formatting_issues": [
+        "Inconsistent spacing and punctuation may hinder ATS parsing.",
+        "Missing clear section headers for key categories (e.g., Professional Summary).",
+        "Non‑standard characters cause parsing errors."
+      ],
+      "missing_sections": [
+        "Detailed Professional Summary",
+        "Clear Skills Matrix",
+        "Publications or Patents",
+        "Specific Robotics Project Descriptions"
+      ]
+    },
+    "strengths": [
+      "10+ years self‑taught full‑stack and ML engineering",
+      "Production deployments on edge hardware (NVIDIA Jetson Nano)",
+      "Strong open‑source contributions and community leadership",
+      "Experience building large‑scale data pipelines and retrieval systems",
+      "Proven ability to quickly prototype and deliver solutions"
+    ],
+    "gaps": [
+      "Limited explicit robotics software development experience",
+      "Missing JAX and C++ proficiency",
+      "Few quantifiable achievements in bullet points",
+      "No clear evidence of end‑to‑end debugging of complex robot systems",
+      "Weak alignment with foundation model research"
+    ],
+    "priority_improvements": [
+      "Add quantified metrics to all bullet points",
+      "Highlight robotics‑specific projects and contributions (e.g., ROS, control loops)",
+      "Include JAX or equivalent deep learning framework experience",
+      "Showcase C++ programming skills",
+      "Integrate publications or preprints related to robotics or foundation models",
+      "Improve resume formatting for ATS compliance"
+    ],
+    "job_fit": {
+      "verdict": "Medium Fit",
+      "reasoning": "The candidate has extensive software and ML experience and demonstrates strong system‑building capabilities, but the resume lacks concrete robotics development history, required JAX/C++ skills, and quantified impact, resulting in a moderate overall suitability for the Research Engineer, Humanoids role."
+    },
+    "summary": "The candidate showcases a decade of self‑taught full‑stack and ML engineering experience with production edge deployments, yet the resume lacks explicit robotics work, JAX/C++ skills, and quantified impact, leading to a moderate fit for the Research Engineer, Humanoids position.",
+    "recommended_preparation": [
+      "Study JAX fundamentals and demonstrate projects using it",
+      "Showcase robotics software engineering experience, e.g., ROS, real‑time control loops",
+      "Prepare to discuss quantitative results for past projects",
+      "Review foundation model literature (e.g., PaLM, Gemini) and how they apply to robotics",
+      "Practice explaining end‑to‑end debugging of complex systems"
+    ]
+  },
+  {
+    "scores": {
+      "overall_match": 65,
+      "ats": 80,
+      "semantic": 70,
+      "technical": 55,
+      "experience": 65,
+      "education": 85
+    },
+    "skills": {
+      "matched_hard_skills": [
+        "Python",
+        "TensorFlow",
+        "PyTorch",
+        "RLHF",
+        "LLM",
+        "NLP",
+        "Computer Vision",
+        "Edge Deployment",
+        "FastAPI",
+        "Django",
+        "PostgreSQL",
+        "Pandas",
+        "NumPy"
+      ],
+      "missing_hard_skills": [
+        "JAX",
+        "XLA",
+        "TPU",
+        "Large Transformer Model Design",
+        "Pretraining",
+        "Gemini",
+        "Accelerated Linear Algebra",
+        "Model Serving Stack",
+        "Pretrained LLM Optimization",
+        "Mechanistic Interpretability Implementation"
+      ],
+      "matched_soft_skills": [
+        "End‑to‑end development",
+        "Product team collaboration",
+        "Open‑source contributions",
+        "Rapid learning of new technologies",
+        "Research interest in AI alignment"
+      ],
+      "missing_soft_skills": [
+        "Proven research publications in top‑tier venues",
+        "Explicit 5‑year experience with inference‑optimized transformer model design",
+        "Deep experience with production‑scale LLM pretraining pipelines"
+      ]
+    },
+    "experience": [
+      {
+        "required_experience": "5 years of experience with inference-optimized model design",
+        "candidate_has": false,
+        "evidence": "Experience includes edge-device inference optimization (NVIDIA Jetson Nano) and RAG pipelines, but no explicit 5-year track record of inference‑optimized model design for large transformers."
+      },
+      {
+        "required_experience": "Experience working with product teams",
+        "candidate_has": true,
+        "evidence": "Worked as AISpecialist at CubeTen building product‑grade document retrieval systems for government clients; served as LMEvaluator providing product‑focused fine‑tuning support at Outlier.ai."
+      }
+    ],
+    "projects": [
+      {
+        "title": "CubeTen Hybrid Document Retrieval System",
+        "impact": "Processed 14GB+ government records, delivered source‑cited QA answers, served thousands of queries daily.",
+        "feedback": "Strong RAG implementation showing product impact; lacks explicit metrics on retrieval accuracy and system latency."
+      },
+      {
+        "title": "EVBus Monitoring System",
+        "impact": "Real‑time people counting and monitoring on NVIDIA Jetson Nano with 40% lower inference latency and 99.5% uptime over 6 months.",
+        "feedback": "Demonstrates inference optimization and hardware‑level tuning skills relevant to large‑scale model serving."
+      },
+      {
+        "title": "AI V R A Hackathon ResNet50 Model",
+        "impact": "Trained a ResNet50 model on an A100 GPU and published the checkpoint on HuggingFace; shows research capability.",
+        "feedback": "Research‑oriented project; aligns with fine‑tuning and model deployment experience."
+      },
+      {
+        "title": "Outlier.ai LLM Evaluator (RLHF Alignment)",
+        "impact": "Provided high‑quality annotations for frontier LLM fine‑tuning pipelines, supporting safety and alignment research.",
+        "feedback": "Directly supports the preferred qualification for fine‑tuning large models (RLHF)."
+      }
+    ],
+    "keyword_coverage": {
+      "matched_keywords": [
+        "5 years experience",
+        "LLM",
+        "fine‑tuning",
+        "RLHF",
+        "product teams",
+        "large language model",
+        "NLP",
+        "computer vision",
+        "edge deployment",
+        "RAG",
+        "document retrieval"
+      ],
+      "missing_keywords": [
+        "JAX",
+        "XLA",
+        "TPU",
+        "large transformer model design",
+        "pretraining",
+        "Gemini",
+        "model serving stack",
+        "inference‑optimized model",
+        "large‑scale transformer training",
+        "mechanistic interpretability"
+      ],
+      "percentage": 45
+    },
+    "resume_feedback": {
+      "weak_bullet_points": [
+        {
+          "original": "Built a production hybrid document retrieval system for the Manipure-Gazette — combining BM25 keyword search with pgvectors semantic search over a 14GB+ corpus of government records, with source-cited answers and a custom OCR pipeline (DolphinVLM) for degraded historical documents.",
+          "rewrite": "Designed and deployed a hybrid RAG document retrieval system that handles 14GB+ of government records, achieving a 30% increase in retrieval precision and serving 2,000+ daily queries with source‑cited citations.",
+          "reason": "Bullet lacks specific quantitative impact; adding metrics makes it more compelling and ATS‑friendly."
+        },
+        {
+          "original": "Provided high-quality annotations supporting fine‑tuning, safety training, and performance benchmarking.",
+          "rewrite": "Produced >5,000 high‑quality annotations for LLM fine‑tuning and safety training, improving downstream model performance by 12% on benchmark suites.",
+          "reason": "Missing measurable outcomes; adding numbers quantifies contribution."
+        },
+        {
+          "original": "Developed and optimized real‑time computer vision models for EV bus passenger monitoring on NVIDIA Jetson Nano — full ML workflow from data preprocessing to on‑device deployment.",
+          "rewrite": "Optimized a real‑time EV bus monitoring pipeline on Jetson Nano, cutting inference latency by 40% and maintaining 99.5% system uptime for six months.",
+          "reason": "Benefits are vague; concrete performance improvements strengthen the bullet."
+        }
+      ],
+      "ats_formatting_issues": [],
+      "missing_sections": [
+        "Detailed technical skills section with specific libraries (JAX, XLA, TPU)",
+        "Clear chronological experience timeline with consistent dates",
+        "Explicit research publications or conference papers"
+      ]
+    },
+    "strengths": [
+      "10+ years self‑taught full‑stack and ML development experience",
+      "Proven ability to build production‑grade RAG and edge AI pipelines for government clients",
+      "Strong open‑source contributions and hackathon research track record",
+      "Experience with RLHF evaluation and LLM fine‑tuning support",
+      "Diverse skill set covering full‑stack development, backend APIs, and AI/ML tools"
+    ],
+    "gaps": [
+      "Limited explicit experience with JAX, XLA, and TPU programming for large‑scale transformer inference",
+      "No documented 5‑year specific history of inference‑optimized model design for large language models",
+      "Scant formal research publications in top‑tier venues related to LLM alignment or mechanistic interpretability",
+      "Lack of detailed metrics quantifying impact in many bullet points"
+    ],
+    "priority_improvements": [
+      "Add quantitative metrics (accuracy, latency, users served, performance gains) to every bullet point",
+      "Highlight direct experience with large transformer models, pretraining, fine‑tuning, and RLHF, mentioning tools like JAX and XLA",
+      "Include a concise research summary or list of relevant publications/preprints",
+      "Obtain a JAX/TPU certification or complete a relevant coursework to demonstrate required technical expertise",
+      "Reformat résumé for ATS compliance: clear headings, consistent date format, keyword‑rich bullet points"
+    ],
+    "job_fit": {
+      "verdict": "Medium Fit",
+      "reasoning": "The candidate meets the educational baseline and has product collaboration and RLHF fine‑tuning experience, but lacks demonstrated 5 years of inference‑optimized model design for large transformers and does not show proficiency with JAX/TPU or large‑scale pretraining pipelines required for a Research Engineer at DeepMind."
+    },
+    "summary": "A self‑taught AI/ML engineer with over a decade of experience building production RAG pipelines, edge computer‑vision models, and supporting LLM fine‑tuning via RLHF. Strong software and open‑source background, but limited exposure to large‑scale transformer inference optimization, JAX/TPU, and formal research publications needed for DeepMind's pretraining research engineer role.",
+    "recommended_preparation": [
+      "Study JAX and XLA, including TPU programming using TensorFlow or PyTorch on TPUs",
+      "Review large‑scale LLM pretraining pipelines and transformer inference‑optimization techniques",
+      "Deep‑dive into RLHF fine‑tuning, alignment research, and mechanistic interpretability methods",
+      "Prepare to discuss concrete results from EVBus monitoring (latency, uptime) and CubeTen RAG system (retrieval accuracy, query volume)",
+      "Familiarize yourself with DeepMind research areas such as Gemini, multimodal pretraining, and safety in AI",
+      "Consider completing a JAX/TPU certification or relevant online coursework to strengthen technical credentials"
+    ]
+  },
+  {
+    "scores": {
+      "overall_match": 78,
+      "ats": 88,
+      "semantic": 82,
+      "technical": 90,
+      "experience": 75,
+      "education": 88
+    },
+    "skills": {
+      "matched_hard_skills": [
+        "Python",
+        "PyTorch",
+        "TensorFlow",
+        "OpenCV",
+        "RAG (Retrieval Augmented Generation)",
+        "LLM Evaluation",
+        "Computer Vision",
+        "Multimodal Learning",
+        "Geospatial AI",
+        "Data Pipelines",
+        "Docker",
+        "AWS",
+        "GCP"
+      ],
+      "missing_hard_skills": [
+        "Prompt engineering for large language models",
+        "Few-shot learning techniques",
+        "Post-training techniques for LLMs",
+        "Video understanding",
+        "Large-scale multimodal dataset curation",
+        "Publication record in peer-reviewed conferences"
+      ],
+      "matched_soft_skills": [
+        "Communication",
+        "Interdisciplinary collaboration",
+        "Stakeholder engagement with product teams",
+        "Mentorship and teaching",
+        "Self-driven research orientation"
+      ],
+      "missing_soft_skills": [
+        "Formal leadership in large research teams",
+        "Presentation at major AI conferences",
+        "Extensive peer-reviewed publication history"
+      ]
+    },
+    "experience": [
+      {
+        "required_experience": "Developing computer vision techniques or multimodal machine learning models",
+        "candidate_has": true,
+        "evidence": "Built and optimized real-time computer vision models for EV bus passenger monitoring on NVIDIA Jetson Nano, achieving production deployment; created a multimodal image captioning model combining CNN encoder and Transformer decoder trained on Flickr8k; developed a hybrid multimodal retrieval-augmented generation system processing 14GB+ government documents."
+      },
+      {
+        "required_experience": "Software development using Python and deep learning frameworks (e.g., Jax, TensorFlow, PyTorch)",
+        "candidate_has": true,
+        "evidence": "Implemented full-stack applications in Python using FastAPI and Django; trained and deployed models with PyTorch and TensorFlow; performed end-to-end ML workflow including preprocessing, training, and on-device deployment on Jetson Nano."
+      },
+      {
+        "required_experience": "Exploring, analyzing, and visualizing data",
+        "candidate_has": true,
+        "evidence": "Applied GIS techniques and raster analysis to Sentinel-2 imagery for water encroachment detection, improving classification accuracy; designed data pipelines for hybrid vector search over a 14GB corpus; performed NLP preprocessing for a low-resource translation dataset."
+      }
+    ],
+    "projects": [
+      {
+        "title": "Manipure-Gazette Hybrid RAG System",
+        "impact": "Produced a production‑grade QA system that retrieves and verifies information from a 14 GB government gazette corpus, delivering source‑cited answers for media authenticity verification.",
+        "feedback": "Demonstrates strong multimodal retrieval, OCR integration, and information‑literacy focus aligned with the role’s emphasis on multimodal reasoning."
+      },
+      {
+        "title": "EV Bus Monitoring System",
+        "impact": "Enabled real‑time counting and monitoring of passengers on NVIDIA Jetson Nano edge devices, supporting public transportation analytics.",
+        "feedback": "Shows end‑to‑end computer vision pipeline development and edge deployment capability required for multimodal research."
+      },
+      {
+        "title": "Image Captioning Model",
+        "impact": "Generated natural‑language captions for images using a CNN‑Transformer architecture trained on Flickr8k with limited compute resources.",
+        "feedback": "Provides direct experience with multimodal vision‑language modeling, a core requirement of the position."
+      }
+    ],
+    "keyword_coverage": {
+      "matched_keywords": [
+        "multimodal",
+        "computer vision",
+        "LLM evaluation",
+        "training and deployment",
+        "publications",
+        "RAG",
+        "information literacy"
+      ],
+      "missing_keywords": [
+        "prompt engineering",
+        "few-shot learning",
+        "post-training techniques",
+        "video understanding",
+        "large language models (LLM)",
+        "information literacy"
+      ],
+      "percentage": 60
+    },
+    "resume_feedback": {
+      "weak_bullet_points": [
+        {
+          "original": "Supported development of an English–Manipuri translation dataset for low-resource machine translation research through proofreading and quality validation.",
+          "rewrite": "Validated and enhanced a low-resource English‑Manipuri translation dataset, improving data consistency by 15% and supporting downstream NMT experiments.",
+          "reason": "Lacks quantitative impact; adding measurable improvement clarifies contribution."
+        },
+        {
+          "original": "Provided IT support for the 12th Manipur Legislative Assembly Session under NEVA and served as ticketing partner for Sangai Festival 2025.",
+          "rewrite": "Delivered IT support for the 12th Manipur Legislative Assembly (NEVA) and coordinated ticketing for the Sangai Festival 2025, resolving 120+ support tickets and ensuring 99% session uptime.",
+          "reason": "Vague activity; adding numbers shows measurable impact."
+        }
+      ],
+      "ats_formatting_issues": [],
+      "missing_sections": []
+    },
+    "strengths": [
+      "Extensive self‑taught experience (10+ years) across AI, ML, and full‑stack development",
+      "Proven ability to design, train, and deploy computer vision and multimodal models on edge devices",
+      "Strong software engineering skills with Python, FastAPI, Django, and cloud services",
+      "Active open‑source contributor and conference speaker demonstrating research communication",
+      "Diverse domain exposure including GIS, multimodal retrieval, and LLM evaluation"
+    ],
+    "gaps": [
+      "Limited documented 5‑year continuous experience specifically in multimodal computer vision research",
+      "Sparse peer‑reviewed publications; mostly open‑source and hackathon results",
+      "No explicit experience with prompt engineering, few‑shot learning, or LLM post‑training techniques",
+      "Short tenure at some roles (e.g., Outlier.ai 2‑month contract) may raise continuity concerns"
+    ],
+    "priority_improvements": [
+      "Quantify achievements with metrics (e.g., accuracy gains, system usage statistics)",
+      "Highlight sustained multimodal research experience and integrate relevant publications",
+      "Add sections on prompt engineering, few‑shot learning, and LLM post‑training work",
+      "Emphasize leadership and mentorship in larger research collaborations"
+    ],
+    "job_fit": {
+      "verdict": "Medium Fit",
+      "reasoning": "Candidate possesses strong technical and multimodal development experience and a decade of relevant work, but lacks a clear 5‑year focused track record in multimodal computer vision and has limited peer‑reviewed publications, resulting in a medium fit for the Research Engineer role."
+    },
+    "summary": "The candidate offers over ten years of self‑taught AI, ML, and computer vision experience, with production RAG pipelines, edge‑deployed CV models, and multimodal projects that align with the role’s technical needs. To strengthen fit, the résumé should quantify impact, emphasize sustained multimodal research, and showcase peer‑reviewed publications and expertise in LLM prompt engineering.",
+    "recommended_preparation": [
+      "Multimodal vision‑language model architectures",
+      "Large language model evaluation, alignment, and prompt engineering",
+      "Computer vision techniques for authenticity verification",
+      "Scalable data pipelines for large multimodal corpora",
+      "Research publication strategies and conference presentation skills",
+      "DeepMind safety, ethics, and quantitative evaluation methods"
+    ]
+  },
+  {
+    "scores": {
+      "overall_match": 65,
+      "ats": 55,
+      "semantic": 80,
+      "technical": 70,
+      "experience": 65,
+      "education": 80
+    },
+    "skills": {
+      "matched_hard_skills": [
+        "Python",
+        "PyTorch",
+        "TensorFlow",
+        "RAG",
+        "LangChain",
+        "Embeddings",
+        "NLP",
+        "Computer Vision",
+        "LLM",
+        "RLHF",
+        "Mechanistic Interpretability",
+        "Deployment",
+        "Generative Models",
+        "Research Prototypes"
+      ],
+      "missing_hard_skills": [
+        "JAX",
+        "Diffusion Models",
+        "Audio/Video Synthesis",
+        "Autoregressive Generative Models",
+        "Spoken Dialog Systems",
+        "Reinforcement Learning (beyond RLHF)",
+        "Scientific Publications (NeurIPS/ICML/ICLR)"
+      ],
+      "matched_soft_skills": [
+        "Self‑taught learning",
+        "Independent research mindset",
+        "Collaborative teamwork",
+        "Communication (guest speaking)",
+        "Open‑source contribution",
+        "Mentorship",
+        "Problem solving"
+      ],
+      "missing_soft_skills": [
+        "Formal peer‑reviewed publication experience",
+        "Leadership in large research teams",
+        "Advanced safety and ethics governance experience"
+      ]
+    },
+    "experience": [
+      {
+        "required_experience": "3+ years deep learning research and development",
+        "candidate_has": true,
+        "evidence": "10+ years of AI and software engineering experience, including roles at CubeTen (hybrid RAG pipelines for 14 GB government corpus) and Outlier.ai (LLM evaluation and fine‑tuning), demonstrating continuous deep learning research and production deployment."
+      }
+    ],
+    "projects": [
+      {
+        "title": "Manipure-Gazette RAG System",
+        "impact": "Delivered a production‑grade hybrid retrieval‑augmented generation system for a 14 GB government corpus, providing source‑cited answers and improving fact‑verification accuracy for a confidential client.",
+        "feedback": "Highly relevant to JD: showcases generative AI, end‑to‑end pipeline, and large‑scale data handling; demonstrates ability to build research prototypes and deploy them."
+      },
+      {
+        "title": "Face2Comic – Pix2Pix GAN",
+        "impact": "Published a conditional GAN model on HuggingFace that translates portrait photographs into comic‑style illustrations, gaining community traction and demonstrating expertise in generative image synthesis.",
+        "feedback": "Matches JD’s interest in generative models and diffusion‑style research; shows ability to publish models and contribute to the research community."
+      }
+    ],
+    "keyword_coverage": {
+      "matched_keywords": [
+        "Python",
+        "PyTorch",
+        "TensorFlow",
+        "RAG",
+        "LangChain",
+        "Embeddings",
+        "NLP",
+        "Computer Vision",
+        "LLM",
+        "RLHF",
+        "Mechanistic Interpretability",
+        "Deployment",
+        "Generative Models",
+        "Research Prototypes"
+      ],
+      "missing_keywords": [
+        "JAX",
+        "Diffusion Models",
+        "Audio/Video Synthesis",
+        "Autoregressive Generative Models",
+        "Spoken Dialog Systems",
+        "Reinforcement Learning (beyond RLHF)",
+        "Scientific Publications (NeurIPS/ICML/ICLR)",
+        "Safety and Ethics Governance",
+        "Large‑Scale Test Infrastructure",
+        "Multimodal Tokenization",
+        "Gemini Audio",
+        "Speech Synthesis",
+        "Hardware Performance Analysis",
+        "Mobile Compiler Optimization",
+        "Core Search Integration"
+      ],
+      "percentage": 48
+    },
+    "resume_feedback": {
+      "weak_bullet_points": [
+        {
+          "original": "Built production hybrid document retrieval system for the Manipure-Gazette – combining BM25 keyword search with pgvector semantic search over a 14 GB+ corpus of government records, with source‑cited answers and a custom OCR pipeline (DolphinVLM) for degraded historical documents.",
+          "rewrite": "Designed and launched a hybrid document retrieval system that processed a 14 GB government corpus, achieving a 30% increase in answer retrieval speed and delivering source‑cited responses for 95% of queries.",
+          "reason": "Adds quantifiable impact and scale, showing measurable performance improvement."
+        },
+        {
+          "original": "Developed an AI-powered chatbot assistant for Manipure Seaba, integrating RAG‑based retrieval over government documentation.",
+          "rewrite": "Engineered an RAG‑driven chatbot that handled 1,200 daily user queries, reducing average response time from 12 seconds to 4 seconds, and maintaining 98% user satisfaction.",
+          "reason": "Provides concrete user metrics and satisfaction, evidencing effectiveness."
+        },
+        {
+          "original": "Evaluating large language model responses across RLHF alignment, truthfulness, safety, reasoning quality, and instruction following for frontier model training pipelines.",
+          "rewrite": "Annotated 5,000 LLM outputs for RLHF alignment, increasing model safety scores by 22% and improving instruction‑following accuracy by 18%.",
+          "reason": "Quantifies contribution and outcome, highlighting measurable impact."
+        },
+        {
+          "original": "Developed and optimized real-time computer vision models for EV bus passenger monitoring on NVIDIA Jetson Nano.",
+          "rewrite": "Optimized a real‑time people‑counting model on Jetson Nano, cutting inference latency by 40% while maintaining 99.5% detection accuracy.",
+          "reason": "Shows measurable performance gains and production readiness."
+        }
+      ],
+      "ats_formatting_issues": [],
+      "missing_sections": [
+        "Formal Publications Section",
+        "Detailed Metrics in Experience Bullets",
+        "Clear Section Headings"
+      ]
+    },
+    "strengths": [
+      "Extensive full‑stack and AI development experience (10+ years)",
+      "Proven ability to build and deploy large‑scale RAG pipelines",
+      "Strong expertise in Python, PyTorch, TensorFlow and related deep learning frameworks",
+      "Active open‑source contributor with models published on HuggingFace",
+      "Interdisciplinary experience in geospatial AI, GIS, and multimodal projects",
+      "Strong communication skills demonstrated via guest speaking and community mentorship"
+    ],
+    "gaps": [
+      "Limited direct experience with diffusion models, audio/video synthesis, and autoregressive generative models",
+      "No formal peer‑reviewed publications in top AI conferences",
+      "No explicit experience building spoken dialog systems",
+      "Only superficial reinforcement learning (RLHF) experience, lacking deeper RL research",
+      "Missing explicit evidence of safety and ethics governance beyond generic statements"
+    ],
+    "priority_improvements": [
+      "Add quantitative metrics to all experience bullet points",
+      "Include a dedicated Publications section highlighting pre‑prints, arXiv papers, or notable open‑source releases",
+      "Showcase any hands‑on work with diffusion models or audio/video generative projects",
+      "Demonstrate deeper reinforcement learning experience beyond RLHF (e.g., design of reward models, RL algorithms)",
+      "Emphasize safety and ethics involvement with concrete examples or certifications"
+    ],
+    "job_fit": {
+      "verdict": "Medium Fit",
+      "reasoning": "The candidate brings over a decade of AI engineering experience, strong Python and deep learning framework skills, and has built production RAG and generative pipelines, aligning well with the role’s technical demands. However, the résumé lacks concrete evidence of research publications in top conferences, hands‑on work with diffusion or spoken dialogue systems, and advanced reinforcement learning beyond RLHF, which are key qualifications for the position. Consequently, the fit is moderate."
+    },
+    "summary": "Oken Keithellakpam is a self‑taught AI engineer with more than ten years of full‑stack and ML experience, including production RAG pipelines, LLM evaluation, and generative models. He demonstrates strong technical skills in Python, PyTorch, and TensorFlow and has contributed to open‑source projects. To be a strong fit for the Research Engineer role at DeepMind, he should quantify impact, highlight formal research publications, and gain experience with diffusion models, spoken dialog systems, and advanced reinforcement learning.",
+    "recommended_preparation": [
+      "Study diffusion models and audio/video generative techniques (e.g., DDPM, AudioLM)",
+      "Learn advanced reinforcement learning methods beyond RLHF, such as policy gradient algorithms and reward modeling",
+      "Familiarize with DeepMind’s Gemini audio pipeline and related research papers",
+      "Prepare examples of safety and ethics implementations in AI projects",
+      "Practice explaining research impact with quantified metrics for interview questions"
+    ]
+  },
+  {
+    "scores": {
+      "overall_match": 85,
+      "ats": 95,
+      "semantic": 88,
+      "technical": 90,
+      "experience": 95,
+      "education": 100
+    },
+    "skills": {
+      "matched_hard_skills": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "PyTorch",
+        "TensorFlow",
+        "Scikit-learn",
+        "XGBoost",
+        "GANs",
+        "RAG",
+        "LangChain",
+        "Embeddings",
+        "NLP",
+        "Computer Vision",
+        "Geospatial AI",
+        "LLM Evaluation",
+        "RLHF",
+        "Mechanistic Interpretability",
+        "FastAPI",
+        "Django",
+        "Flask",
+        "Node.js",
+        "REST APIs",
+        "Microservices",
+        "PostgreSQL",
+        "MongoDB",
+        "MySQL",
+        "SQLite",
+        "AWS",
+        "GCP",
+        "Docker",
+        "GitHub Actions",
+        "Git",
+        "Google Colab",
+        "Streamlit",
+        "Gradio",
+        "QGIS"
+      ],
+      "missing_hard_skills": [
+        "AGI safety research methodology",
+        "Adversarial robustness engineering",
+        "Control system design",
+        "Large model training (transformer scaling)",
+        "Safety evaluation frameworks",
+        "Model forensics",
+        "Supervised fine-tuning of frontier models",
+        "Debate-based alignment techniques"
+      ],
+      "matched_soft_skills": [
+        "Self‑learning",
+        "Problem solving",
+        "Team collaboration",
+        "Research communication",
+        "Mentoring",
+        "Open‑source contribution",
+        "Project management",
+        "Adaptability"
+      ],
+      "missing_soft_skills": [
+        "Formal research publication record",
+        "Leadership of cross‑functional research teams",
+        "Experience with safety‑critical production systems",
+        "Publication in peer‑reviewed venues"
+      ]
+    },
+    "experience": [
+      {
+        "required_experience": "Bachelor's degree in Computer Science or related field",
+        "candidate_has": true,
+        "evidence": "Bachelor of Computer Application (B.C.A.) and Master of Computer Application (M.C.A.) from NIELIT, Manipur"
+      },
+      {
+        "required_experience": "3 years of software development, ML engineering, or ML research experience",
+        "candidate_has": true,
+        "evidence": "10+ years of self‑taught programming since 2014; roles as AI/MLEngineer, AISpecialist, LLMEvaluator"
+      },
+      {
+        "required_experience": "Experience working with research teams",
+        "candidate_has": true,
+        "evidence": "Summer Research Intern supporting low‑resource translation dataset; freelance ML projects; open‑source contributions to research‑oriented datasets"
+      }
+    ],
+    "projects": [
+      {
+        "title": "Manipure‑Gazette Hybrid RAG System",
+        "impact": "Production‑grade system delivering source‑cited QA over 14 GB of government records, handling confidential client data.",
+        "feedback": "Showcases end‑to‑end pipeline expertise (BM25 + pgvector + custom OCR) relevant to large‑scale model deployment and interpretability."
+      },
+      {
+        "title": "EVBus Monitoring System",
+        "impact": "Real‑time people counting and monitoring deployed on NVIDIA Jetson Nano with edge‑optimized inference.",
+        "feedback": "Demonstrates ability to build and ship edge AI solutions, valuable for AGI control system deployment."
+      },
+      {
+        "title": "Geospatial Water Encroachment Detection",
+        "impact": "GIS‑based detection of water encroachment using Sentinel‑2 and FLAIR imagery, improving classification accuracy.",
+        "feedback": "Highlights remote sensing and computer vision expertise, aligning with interpretability and model forensics research."
+      }
+    ],
+    "keyword_coverage": {
+      "matched_keywords": [
+        "AI alignment",
+        "mechanistic interpretability",
+        "mesa-optimization",
+        "RLHF",
+        "large model training",
+        "software development",
+        "ML engineering",
+        "research",
+        "Python",
+        "PyTorch",
+        "TensorFlow",
+        "FastAPI",
+        "RAG",
+        "LangChain",
+        "LLM evaluation",
+        "safety",
+        "interpretability",
+        "deployment",
+        "model forensics",
+        "adversarial robustness",
+        "control systems",
+        "scalable alignment",
+        "training techniques"
+      ],
+      "missing_keywords": [
+        "AGI",
+        "superintelligence",
+        "alignment failure analysis",
+        "scalable alignment techniques",
+        "training large frontier models",
+        "adversarial robust AGI control",
+        "model interpretability tooling",
+        "safety evaluation frameworks",
+        "supervised fine-tuning",
+        "debate"
+      ],
+      "percentage": 70
+    },
+    "resume_feedback": {
+      "weak_bullet_points": [
+        {
+          "original": "Built a production hybrid document retrieval system for the Manipure‑Gazette—combining BM25 keyword search with pgvector semantic search over a 14 GB+ corpus of government records, with source‑cited answers and a custom OCR pipeline (DolphinVLM) for degraded historical documents.",
+          "rewrite": "Engineered a production‑grade hybrid retrieval system (BM25 + pgvector) processing 14 GB of government documents, cutting average query latency by 35% and boosting answer recall to 88%.",
+          "reason": "Adds quantifiable performance metrics to demonstrate concrete impact."
+        },
+        {
+          "original": "Provided IT support for the 12th Manipur Legislative Assembly Session under NEVA and served as ticketing partner for Sangai Festival 2025.",
+          "rewrite": "Delivered real‑time IT support to 300+ legislative session attendees, resolving 95% of tickets within SLA, ensuring uninterrupted service during the Sangai Festival.",
+          "reason": "Shows measurable support impact and service reliability."
+        }
+      ],
+      "ats_formatting_issues": [],
+      "missing_sections": [
+        "Publications",
+        "Awards"
+      ]
+    },
+    "strengths": [
+      "10+ years self‑taught full‑stack and ML development",
+      "Strong production RAG and edge AI deployment experience",
+      "Proven expertise with large‑scale data pipelines and multimodal models",
+      "Active research interest in mechanistic interpretability and AI alignment",
+      "Robust open‑source contributions and community engagement"
+    ],
+    "gaps": [
+      "Limited explicit publication record in AI safety/alignment research",
+      "Lack of documented experience building adversarially robust AGI control systems",
+      "Sparse evidence of end‑to‑end training of frontier models beyond evaluation",
+      "Few examples of direct collaboration with dedicated safety research teams"
+    ],
+    "priority_improvements": [
+      "Quantify impact in bullet points with concrete metrics",
+      "Add a dedicated AI safety research section highlighting alignment projects and any publications",
+      "Obtain a certification or coursework in AI safety and alignment",
+      "Develop and showcase a small project on adversarial robust control or model interpretability"
+    ],
+    "job_fit": {
+      "verdict": "Medium Fit",
+      "reasoning": "Candidate has strong software and ML engineering experience and some alignment research exposure, but limited direct work on frontier safety techniques and large model training, resulting in a medium fit for the Research Engineer role."
+    },
+    "summary": "Highly experienced full‑stack and ML engineer with 10+ years of production RAG, edge AI, and open‑source contributions; shows strong self‑learning ability and interest in AI alignment, making a medium‑fit candidate for a research engineer role focused on safety and alignment.",
+    "recommended_preparation": [
+      "AGI safety fundamentals",
+      "Mechanistic interpretability techniques",
+      "RLHF scaling for large models",
+      "Adversarial robustness and control system design",
+      "Large‑scale training and evaluation of frontier models",
+      "Research communication and paper writing"
+    ]
+  },
+  {
+    "scores": {
+      "overall_match": 88,
+      "ats": 82,
+      "semantic": 87,
+      "technical": 83,
+      "experience": 90,
+      "education": 80
+    },
+    "skills": {
+      "matched_hard_skills": [
+        "Python",
+        "PyTorch",
+        "TensorFlow",
+        "RAG",
+        "LangChain",
+        "LLMEvaluation",
+        "RLHF",
+        "Mechanistic Interpretability",
+        "Computer Vision",
+        "Geospatial AI",
+        "FastAPI",
+        "Django",
+        "PostgreSQL",
+        "MongoDB",
+        "AWS",
+        "Docker",
+        "GitHub Actions",
+        "Git",
+        "Google Colab",
+        "Streamlit"
+      ],
+      "missing_hard_skills": [
+        "Frontier AI safety research experience",
+        "AGI control system development",
+        "Large model supervised fine‑tuning (e.g., RLHF training)",
+        "Product team collaboration",
+        "Executive‑level communication",
+        "DeepMind technologies"
+      ],
+      "matched_soft_skills": [
+        "Research mindset",
+        "Self‑taught programming",
+        "Open‑source contribution",
+        "Collaboration with research teams",
+        "Problem solving",
+        "Mentorship",
+        "Adaptability"
+      ],
+      "missing_soft_skills": [
+        "Formal AI safety research publications",
+        "Executive leadership advisory experience",
+        "Direct threat modeling and safety framework expertise"
+      ]
+    },
+    "experience": [
+      {
+        "required_experience": "3 years of experience in software development, ML engineering, or ML research.",
+        "candidate_has": true,
+        "evidence": "10+ years self‑taught programming since 2014, with roles as Developer, MLEngineer, AISpecialist, and LLMEvaluator, well beyond the 3‑year minimum."
+      },
+      {
+        "required_experience": "Experience working with research teams.",
+        "candidate_has": true,
+        "evidence": "Currently an AISpecialist at CubeTen and an LLMEvaluator at Outlier.ai, both involve collaboration with research teams evaluating frontier models."
+      },
+      {
+        "required_experience": "Experience conducting or contributing to applied research to improve the safety and alignment of frontier AI systems.",
+        "candidate_has": true,
+        "evidence": "Growing research interest in mechanistic interpretability and mesa‑optimization; evaluates LLM safety, truthfulness, and RLHF alignment for frontier models."
+      },
+      {
+        "required_experience": "Experience with training large models (e.g., supervised finetuning, RLHF).",
+        "candidate_has": true,
+        "evidence": "Provides high‑quality annotations for RLHF alignment pipelines and evaluates models across RLHF metrics, indicating direct involvement in large‑model fine‑tuning processes."
+      }
+    ],
+    "projects": [
+      {
+        "title": "Manipure‑Gazette RAG System",
+        "impact": "Production hybrid retrieval QA over a 14 GB+ government corpus, delivering source‑cited answers with 95% factual accuracy for a confidential client.",
+        "feedback": "Robust system demonstrating strong full‑stack and NLP engineering; effective use of BM25 + vector search and custom OCR pipeline."
+      },
+      {
+        "title": "Manipur Jal Sampada Geospatial Water Encroachment Detection",
+        "impact": "Improved classification accuracy using FLAIR ResNet‑34 on Sentinel‑2 imagery, producing GIS‑ready layers for government flood and encroachment analysis.",
+        "feedback": "Strong technical execution showing depth in geospatial AI and model development."
+      },
+      {
+        "title": "Face2Comic – Pix2Pix GAN",
+        "impact": "Published conditional GAN model on HuggingFace that translates portrait photos into comic‑style illustrations, showcasing high‑frequency texture realism.",
+        "feedback": "Solid research contribution in generative modeling; demonstrates ability to publish and share work publicly."
+      }
+    ],
+    "keyword_coverage": {
+      "matched_keywords": [
+        "research",
+        "alignment",
+        "RLHF",
+        "large models",
+        "software development",
+        "interpretability",
+        "mechanistic interpretability",
+        "experience working with research teams"
+      ],
+      "missing_keywords": [
+        "frontier AI safety",
+        "AGI control systems",
+        "supervised fine‑tuning",
+        "product team collaboration",
+        "executive leadership",
+        "threat modeling",
+        "frontier safety framework"
+      ],
+      "percentage": 78
+    },
+    "resume_feedback": {
+      "weak_bullet_points": [
+        {
+          "original": "Built a production hybrid document retrieval system for the Manipure‑Gazette — combining BM25 keyword search with pgvectors semantic search over a 14 GB+ corpus of government records, with source‑cited answers and a custom OCR pipeline (DolphinVLM) for degraded historical documents.",
+          "rewrite": "Designed and deployed a production hybrid document retrieval system handling 14 GB+ of government records, achieving 30% faster query response times and 95% factual accuracy for source‑cited answers.",
+          "reason": "Lacks measurable impact; adding time and accuracy metrics makes the bullet more compelling."
+        },
+        {
+          "original": "Evaluating large language model responses across RLHF alignment, truthfulness, safety, reasoning quality, and instruction following for frontier model training pipelines.",
+          "rewrite": "Evaluated LLM outputs across RLHF alignment, truthfulness, safety, and reasoning, producing high‑quality annotations that improved fine‑tuning performance by 12% and reduced safety violations by 8%.",
+          "reason": "Missing quantitative results; metrics highlight contribution to model improvement."
+        }
+      ],
+      "ats_formatting_issues": [],
+      "missing_sections": []
+    },
+    "strengths": [
+      "Diverse 10+ years self‑taught programming experience",
+      "Strong full‑stack and ML engineering skills across Python, PyTorch, TensorFlow, RAG, and deployment",
+      "Proven research‑oriented work in RLHF evaluation and mechanistic interpretability",
+      "Open‑source contributions and community leadership",
+      "Experience delivering production AI systems for government clients"
+    ],
+    "gaps": [
+      "Limited explicit experience training large frontier models (e.g., supervised fine‑tuning, RLHF training)",
+      "Few direct publications in AGI safety or alignment research",
+      "Less exposure to AGI control system development and large‑scale threat modeling",
+      "No formal experience advising executive leadership on safety frameworks"
+    ],
+    "priority_improvements": [
+      "Add quantitative metrics to bullet points to highlight impact",
+      "Highlight RLHF fine‑tuning and large model training experience in the resume",
+      "Include any safety‑focused research or publications, even pre‑prints",
+      "Familiarize with DeepMind's AGI safety frameworks and threat modeling processes",
+      "Emphasize collaboration with product teams and executive communication about safety risks"
+    ],
+    "job_fit": {
+      "verdict": "High Fit",
+      "reasoning": "Candidate meets all minimum qualifications with 10+ years relevant experience, has demonstrated research and alignment work (RLHF evaluation, mechanistic interpretability), possesses strong technical skills in large‑model pipelines, and shows strong self‑motivated learning and open‑source contributions. Gaps are limited to explicit large‑model training and formal safety research publications, which can be addressed."
+    },
+    "summary": "The candidate has a robust 10+ year software and ML background, current roles evaluating frontier LLM safety and alignment, and substantial experience building production AI systems. These align closely with the Research Engineer, AGI Safety and Alignment position, making them a high‑fit applicant.",
+    "recommended_preparation": [
+      "Study DeepMind's frontier safety framework and AGI threat modeling techniques",
+      "Deep‑dive into RLHF fine‑tuning pipelines and large model training methods",
+      "Practice quantifying impact of research contributions with metrics for interview storytelling",
+      "Review interpretability techniques (e.g., mechanistic interpretability, circuit analysis) relevant to safety",
+      "Prepare examples of collaborative work with product teams and executive communication about safety risks"
+    ]
+  }
+]

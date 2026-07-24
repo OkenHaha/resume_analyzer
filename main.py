@@ -6,7 +6,7 @@ import vector_db
 import analyzer
 from schemas import AnalysisResult
 import json
-from typing import Optional
+from typing import List, Optional
 
 app = FastAPI(title="Advanced Resume Analyzer API")
 

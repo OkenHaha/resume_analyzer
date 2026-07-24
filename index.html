@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Analysis Dashboard</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --accent: #8b5cf6;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            --border: #334155;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            min-height: 100vh;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            background: linear-gradient(135deg, var(--accent), #ec4899);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .btn {
+            background-color: var(--accent);
+            color: white;
+            padding: 0.6rem 1.2rem;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: 0.2s;
+        }
+
+        .btn:hover {
+            background-color: #7c3aed;
+        }
+
+        /* Sidebar / Job List */
+        .layout {
+            display: grid;
+            grid-template-columns: 250px 1fr;
+            gap: 2rem;
+        }
+
+        .sidebar {
+            background-color: var(--card-bg);
+            padding: 1rem;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            height: fit-content;
+        }
+
+        .job-item {
+            padding: 0.8rem;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-bottom: 0.5rem;
+            transition: 0.2s;
+            border: 1px solid transparent;
+        }
+
+        .job-item:hover {
+            background-color: rgba(139, 92, 246, 0.1);
+        }
+
+        .job-item.active {
+            background-color: rgba(139, 92, 246, 0.2);
+            border-color: var(--accent);
+        }
+
+        .job-item small {
+            color: var(--text-muted);
+            font-size: 0.8rem;
+        }
+
+        /* Main Content */
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-title {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            color: var(--text-main);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* Scores Grid */
+        .scores-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+        }
+
+        .score-box {
+            background-color: rgba(255, 255, 255, 0.05);
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .score-value {
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 0.2rem;
+        }
+
+        .score-label {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .score-high { color: var(--success); }
+        .score-mid { color: var(--warning); }
+        .score-low { color: var(--danger); }
+
+        /* Skills / Lists */
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            display: flex;
+            align-items: start;
+            gap: 0.5rem;
+        }
+
+        li::before {
+            content: "•";
+            color: var(--text-muted);
+        }
+
+        .matched li::before { color: var(--success); content: "✓"; }
+        .missing li::before { color: var(--danger); content: "✗"; }
+
+        /* Progress Bar */
+        .progress-container {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            height: 8px;
+            margin-top: 0.5rem;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            height: 100%;
+            border-radius: 20px;
+            background: linear-gradient(90deg, var(--accent), #ec4899);
+        }
+
+        /* Resume Feedback Diff */
+        .feedback-card {
+            background-color: rgba(0,0,0,0.2);
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            border-left: 4px solid var(--warning);
+        }
+
+        .feedback-original {
+            color: var(--danger);
+            text-decoration: line-through;
+            opacity: 0.7;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        .feedback-rewrite {
+            color: var(--success);
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+
+        .feedback-reason {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            font-style: italic;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 4rem;
+            color: var(--text-muted);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>📊 Resume Analysis Dashboard</h1>
+            <div>
+                <input type="file" id="fileInput" accept=".json" class="hidden" />
+                <button class="btn" onclick="document.getElementById('fileInput').click()">Load JSON File</button>
+            </div>
+        </header>
+
+        <div id="emptyState" class="empty-state">
+            <h2>No Data Loaded</h2>
+            <p>Click "Load JSON File" to view your analysis results.</p>
+        </div>
+
+        <div id="dashboardLayout" class="layout hidden">
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <h3 style="margin-bottom: 1rem; color: var(--text-muted);">ANALYZED JOBS</h3>
+                <div id="jobList"></div>
+            </div>
+
+            <!-- Main Content -->
+            <div class="main-content" id="jobDetails">
+                <!-- Dynamic content goes here -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let analysisData = [];
+
+        document.getElementById('fileInput').addEventListener('change', handleFileUpload);
+
+        function handleFileUpload(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    const data = JSON.parse(e.target.result);
+                    // Normalize to array
+                    analysisData = Array.isArray(data) ? data : [data];
+                    
+                    document.getElementById('emptyState').classList.add('hidden');
+                    document.getElementById('dashboardLayout').classList.remove('hidden');
+                    
+                    renderJobList();
+                    if (analysisData.length > 0) {
+                        renderJobDetails(0);
+                    }
+                } catch (error) {
+                    alert("Error parsing JSON: " + error.message);
+                }
+            };
+            reader.readAsText(file);
+        }
+
+        function renderJobList() {
+            const list = document.getElementById('jobList');
+            list.innerHTML = '';
+            
+            analysisData.forEach((job, index) => {
+                const title = job.job_title || job.title || `Job ${index + 1}`;
+                const score = job.scores?.overall_match || 'N/A';
+                
+                const div = document.createElement('div');
+                div.className = 'job-item';
+                div.onclick = () => renderJobDetails(index);
+                div.innerHTML = `<div>${title}</div><small>Match: ${score}%</small>`;
+                list.appendChild(div);
+            });
+        }
+
+        function renderJobDetails(index) {
+            const job = analysisData[index];
+            
+            // Update active state in sidebar
+            document.querySelectorAll('.job-item').forEach((el, i) => {
+                el.classList.toggle('active', i === index);
+            });
+
+            const details = document.getElementById('jobDetails');
+            const title = job.job_title || job.title || 'Unknown Title';
+            const url = job.source_url || '#';
+
+            // Helper to render arrays
+            const renderList = (items, className = '') => {
+                if (!items || items.length === 0) return '<li style="color: var(--text-muted)">None identified</li>';
+                return items.map(item => `<li>${item}</li>`).join('');
+            };
+
+            details.innerHTML = `
+                <div class="card">
+                    <h2>${title}</h2>
+                    ${url !== '#' ? `<a href="${url}" target="_blank" style="color: var(--accent); font-size: 0.85rem; text-decoration: none;">View Original Job Posting ↗</a>` : ''}
+                </div>
+
+                <!-- Scores -->
+                <div class="card">
+                    <div class="card-title">📈 Match Scores</div>
+                    <div class="scores-grid">
+                        ${renderScore('Overall', job.scores?.overall_match)}
+                        ${renderScore('ATS', job.scores?.ats)}
+                        ${renderScore('Semantic', job.scores?.semantic)}
+                        ${renderScore('Technical', job.scores?.technical)}
+                        ${renderScore('Experience', job.scores?.experience)}
+                        ${renderScore('Education', job.scores?.education)}
+                    </div>
+                </div>
+
+                <!-- Skills -->
+                <div class="card">
+                    <div class="card-title">🛠️ Skills Analysis</div>
+                    <div class="grid-2">
+                        <div>
+                            <h3 style="color: var(--success); margin-bottom: 0.5rem;">Matched Hard Skills</h3>
+                            <ul class="matched">${renderList(job.skills?.matched_hard_skills)}</ul>
+                            
+                            <h3 style="color: var(--success); margin-top: 1rem; margin-bottom: 0.5rem;">Matched Soft Skills</h3>
+                            <ul class="matched">${renderList(job.skills?.matched_soft_skills)}</ul>
+                        </div>
+                        <div>
+                            <h3 style="color: var(--danger); margin-bottom: 0.5rem;">Missing Hard Skills</h3>
+                            <ul class="missing">${renderList(job.skills?.missing_hard_skills)}</ul>
+                            
+                            <h3 style="color: var(--danger); margin-top: 1rem; margin-bottom: 0.5rem;">Missing Soft Skills</h3>
+                            <ul class="missing">${renderList(job.skills?.missing_soft_skills)}</ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Keyword Coverage -->
+                <div class="card">
+                    <div class="card-title">🔑 Keyword Coverage: ${job.keyword_coverage?.percentage || 0}%</div>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: ${job.keyword_coverage?.percentage || 0}%;"></div>
+                    </div>
+                    <div class="grid-2" style="margin-top: 1.5rem;">
+                        <div>
+                            <h3 style="color: var(--success); margin-bottom: 0.5rem;">Matched Keywords</h3>
+                            <ul class="matched">${renderList(job.keyword_coverage?.matched_keywords)}</ul>
+                        </div>
+                        <div>
+                            <h3 style="color: var(--danger); margin-bottom: 0.5rem;">Missing Keywords</h3>
+                            <ul class="missing">${renderList(job.keyword_coverage?.missing_keywords)}</ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience & Projects -->
+                <div class="grid-2">
+                    <div class="card">
+                        <div class="card-title">💼 Experience Requirements</div>
+                        ${job.experience?.map(exp => `
+                            <div style="margin-bottom: 1rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border);">
+                                <p style="font-weight: 600; margin-bottom: 0.3rem;">${exp.required_experience}</p>
+                                <p style="color: ${exp.candidate_has ? 'var(--success)' : 'var(--danger)'}; font-size: 0.85rem; margin-bottom: 0.3rem;">
+                                    ${exp.candidate_has ? '✓ Has Experience' : '✗ Missing Experience'}
+                                </p>
+                                <p style="font-size: 0.85rem; color: var(--text-muted);">${exp.evidence || 'No evidence provided.'}</p>
+                            </div>
+                        `).join('') || '<p>No experience data</p>'}
+                    </div>
+
+                    <div class="card">
+                        <div class="card-title">🚀 Relevant Projects</div>
+                        ${job.projects?.map(proj => `
+                            <div style="margin-bottom: 1rem; padding-bottom: 1rem; border-bottom: 1px solid var(--border);">
+                                <p style="font-weight: 600; color: var(--accent); margin-bottom: 0.3rem;">${proj.title}</p>
+                                <p style="font-size: 0.9rem; margin-bottom: 0.5rem;">${proj.impact}</p>
+                                <p style="font-size: 0.85rem; color: var(--text-muted);"><em>Feedback: ${proj.feedback}</em></p>
+                            </div>
+                        `).join('') || '<p>No project data</p>'}
+                    </div>
+                </div>
+
+                <!-- Resume Feedback -->
+                <div class="card">
+                    <div class="card-title">✍️ Resume Improvement Feedback</div>
+                    
+                    <h3 style="margin-bottom: 1rem; color: var(--warning);">Weak Bullet Points</h3>
+                    ${job.resume_feedback?.weak_bullet_points?.map(bp => `
+                        <div class="feedback-card">
+                            <div class="feedback-original">${bp.original}</div>
+                            <div class="feedback-rewrite">↳ ${bp.rewrite}</div>
+                            <div class="feedback-reason">Reason: ${bp.reason}</div>
+                        </div>
+                    `).join('') || '<p>No weak bullet points identified.</p>'}
+
+                    <h3 style="margin-top: 1.5rem; margin-bottom: 0.5rem;">ATS Formatting Issues</h3>
+                    <ul>${renderList(job.resume_feedback?.ats_formatting_issues)}</ul>
+
+                    <h3 style="margin-top: 1.5rem; margin-bottom: 0.5rem;">Missing Sections</h3>
+                    <ul>${renderList(job.resume_feedback?.missing_sections)}</ul>
+                </div>
+
+                <!-- Strengths & Gaps -->
+                <div class="grid-2">
+                    <div class="card">
+                        <div class="card-title" style="color: var(--success);">💪 Strengths</div>
+                        <ul class="matched">${renderList(job.strengths)}</ul>
+                    </div>
+                    <div class="card">
+                        <div class="card-title" style="color: var(--danger);">⚠️ Gaps to Address</div>
+                        <ul class="missing">${renderList(job.gaps)}</ul>
+                    </div>
+                </div>
+            `;
+        }
+
+        function renderScore(label, score) {
+            let scoreClass = 'score-low';
+            if (score >= 80) scoreClass = 'score-high';
+            else if (score >= 60) scoreClass = 'score-mid';
+
+            return `
+                <div class="score-box">
+                    <div class="score-value ${scoreClass}">${score || 'N/A'}${score ? '%' : ''}</div>
+                    <div class="score-label">${label}</div>
+                </div>
+            `;
+        }
+    </script>
+</body>
+</html>
