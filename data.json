@@ -1,0 +1,48 @@
+{
+    "status": "success",
+    "data": {
+        "raw": null,
+        "json_data": {
+            "job_title": "Research Engineer, Tool Use, DeepMind",
+            "minimum_qualifications": [
+                "Bachelor's degree in computer science, mathematics, physics, electrical engineering, machine learning or equivalent equivalent practical experience",
+                "5 years of experience with software development in one or more programming languages.",
+                "5 years of experience with training of Machine Learning models.",
+                "Experience in industry or a research lab working on machine learning problems and engineering workflows."
+            ],
+            "preferred_qualifications": [
+                "Experience with data analysis at scale, data visualization and data ingestion pipelines for training models.",
+                "Experience with Large Language Models and notably Agents and Tools.",
+                "Working knowledge of JAX/PyTorch or similar frameworks."
+            ],
+            "responsibilities": [
+                "Write and test product or system development code.",
+                "Participate in, or lead design reviews with peers and stakeholders to decide amongst available technologies.",
+                "Review code developed by other developers and provide feedback to ensure best practices (e.g., style guidelines, checking code in, accuracy, testability, and efficiency).",
+                "Contribute to existing documentation or educational content and adapt content based on product/program updates and user feedback.",
+                "Triage product or system issues and debug/track/resolve by analyzing the sources of issues and the impact on hardware, network, or service operations and quality."
+            ],
+            "about_the_job": "At Google, research-focused Software Engineers are embedded throughout the company, allowing them to setup large-scale tests and deploy promising ideas quickly and broadly. Ideas may come from internal projects as well as from collaborations with research programs at partner universities and technical institutes all over the world. From creating experiments and prototyping implementations to designing new architectures, engineers work on real-world problems including artificial intelligence, data mining, natural language processing, hardware and software performance analysis, improving compilers for mobile platforms, as well as core search and much more. But you stay connected to your research roots as an active contributor to the wider research community by partnering with universities and publishing papers. Artificial intelligence will be one of humanity's most transformative inventions. At Google DeepMind, we are a pioneering AI lab with exceptional interdisciplinary teams focused on advancing AI development to solve complex global challenges and accelerate high-quality product innovation for billions of users. We use our technologies for widespread public benefit and scientific discovery, ensuring safety and ethics are always our highest priority. We are pushing the boundaries across multiple domains. Our global teams offer various learning opportunities and varied career pathways for those driven to achieve exceptional results through collective effort."
+        },
+        "usage": {
+            "prompt_tokens": 8555,
+            "completion_tokens": 2134
+        },
+        "metadata": {
+            "chunker": {
+                "chunks": [
+                    {
+                        "size": 5000
+                    },
+                    {
+                        "size": 140
+                    }
+                ]
+            },
+            "fetch": {}
+        },
+        "id": "966a9310-388f-41b2-9baa-c64380740ea5"
+    },
+    "error": null,
+    "elapsed_ms": 3013
+}

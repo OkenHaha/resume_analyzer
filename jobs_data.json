@@ -1,0 +1,232 @@
+[
+    {
+        "job_title": "Research Engineer, Tool Use, DeepMind",
+        "minimum_qualifications": [
+            "Bachelor's degree in computer science, mathematics, physics, electrical engineering, machine learning or equivalent equivalent practical experience",
+            "5 years of experience with software development in one or more programming languages.",
+            "5 years of experience with training of Machine Learning models.",
+            "Experience in industry or a research lab working on machine learning problems and engineering workflows."
+        ],
+        "preferred_qualifications": [
+            "Experience with data analysis at scale, data visualization and data ingestion pipelines for training models.",
+            "Experience with Large Language Models and notably Agents and Tools.",
+            "Working knowledge of JAX/PyTorch or similar frameworks."
+        ],
+        "responsibilities": [
+            "Write and test product or system development code.",
+            "Participate in, or lead design reviews with peers and stakeholders to decide amongst available technologies.",
+            "Review code developed by other developers and provide feedback to ensure best practices (e.g., style guidelines, checking code in, accuracy, testability, and efficiency).",
+            "Contribute to existing documentation or educational content and adapt content based on product/program updates and user feedback.",
+            "Triage product or system issues and debug/track/resolve by analyzing the sources of issues and the impact on hardware, network, or service operations and quality."
+        ],
+        "about_the_job": "At Google, research-focused Software Engineers are embedded throughout the company, allowing them to setup large-scale tests and deploy promising ideas quickly and broadly. Ideas may come from internal projects as well as collaborations with research programs at partner universities and technical institutes all over the world. From creating experiments and prototyping implementations to designing new architectures, engineers work on real-world problems including artificial intelligence, data mining, natural language processing, hardware and software performance analysis, improving compilers for mobile platforms, as well as core search and much more. But you stay connected to your research roots as an active contributor to the wider research community by partnering with universities and publishing papers. Artificial intelligence will be one of humanity's most transformative inventions. At Google DeepMind, we are a pioneering AI lab with exceptional interdisciplinary teams focused on advancing AI development to solve complex global challenges and accelerate high-quality product innovation for billions of users. We use our technologies for widespread public benefit and scientific discovery, ensuring safety and ethics are always our highest priority. We are pushing the boundaries across multiple domains. Our global teams offer various learning opportunities and varied career pathways for those driven to achieve exceptional results through collective effort.",
+        "source_url": "https://www.google.com/about/careers/applications/jobs/results/84332207971148486-research-engineer-tool-use-deepmind?company=DeepMind&utm_source=deepmind&utm_medium=jobposting&page=3"
+    },
+    {
+        "job_title": "Research Engineer, Human Understanding, DeepMind",
+        "minimum_qualifications": [
+            "Bachelor's degree in Computer Science, Machine Learning, a related technical field, or equivalent practical experience.",
+            "5 years of experience developing machine learning models (e.g., audio/speech-visual models).",
+            "Experience working with and tuning vision language models.",
+            "Experience programming in Python and with deep learning frameworks (e.g., JAX, Flax, or Gemax).",
+            "Experience conducting research and development, including experimental design, implementation, and analysis."
+        ],
+        "preferred_qualifications": [
+            "Experience with Generative AI techniques and architectures.",
+            "Experience with multimodal learning, integrating information from different data types (e.g., vision, audio, text).",
+            "Familiarity with Reinforcement Learning or alignment methods.",
+            "Understanding of privacy-preserving machine learning or responsible AI practices.",
+            "A track record of publications in AI/ML conferences (e.g., NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV)."
+        ],
+        "responsibilities": [
+            "Research and implement novel models and other multimodal techniques for a more holistic understanding of human likeness across visual, audio, and textual data.",
+            "Conduct experimental research cycles from hypothesis to deployment, focusing on areas like scalable deepfake detection, privacy-preserving matching, and consistent human likeness generation.",
+            "Take ownership of substantial technical projects within human likeness modeling (HLM), from ideation and design to implementation and evaluation, often involving cross-functional collaboration.",
+            "Inform and contribute to the development of scalable and efficient research infrastructure for HLM models and datasets.",
+            "Design and execute strategies for tuning and adapting vision-language models (VLMs) and other foundation models for specific HLM tasks, such as improved explainability and nuanced likeness measurement."
+        ],
+        "about_the_job": "At Google, research-focused Software Engineers are embedded throughout the company, allowing them to setup large-scale tests and deploy promising ideas quickly and broadly. Ideas may come from internal projects as well as from collaborations with research programs at partner universities and technical institutes all over the world.\n\nFrom creating experiments and prototyping implementations to designing new architectures, engineers work on real-world problems including artificial intelligence, data mining, natural language processing, hardware and software performance analysis, improving compilers for mobile platforms, as well as core search and much more. But you stay connected to your research roots as an active contributor to the wider research community by partnering with universities and publishing papers.\n\nArtificial intelligence will be one of humanity's most transformative inventions. At Google DeepMind, we are a pioneering AI lab with exceptional interdisciplinary teams focused on advancing AI development to solve complex global challenges and accelerate high-quality product innovation for billions of users. We use our technologies for widespread public benefit and scientific discovery, ensuring safety and ethics are always our highest priority.\n\nWe are pushing the boundaries across multiple domains. Our global teams offer diverse learning opportunities and varied career pathways for those driven to achieve exceptional results through collective effort.\n\nIndividual pay is determined by factors including job-related skills, experience, and relevant education or training.\nUS: $174000 - $253000 (USD) + 15% bonus target + equity + benefits.\nLearn more about benefits at Google.",
+        "source_url": "https://www.google.com/about/careers/applications/jobs/results/107269257477137094-research-engineer-human-understanding-deepmind?company=DeepMind&utm_source=deepmind&utm_medium=jobposting&page=4"
+    },
+    {
+        "job_title": "No content available",
+        "minimum_qualifications": [],
+        "preferred_qualifications": [],
+        "responsibilities": [],
+        "about_the_job": "No content available",
+        "source_url": "https://www.google.com/about/careers/applications/jobs/results/107641669796405958-staff-research-engineer-and-scientist-gemini-posttraining-deepmind?company=DeepMind&utm_source=deepmind&utm_medium=jobposting&page=5"
+    },
+    {
+        "job_title": "Staff Software Engineer, Gemini App, Data Engineering, DeepMind",
+        "minimum_qualifications": [
+            "Bachelor's degree in Computer Science or related technical field, or equivalent practical experience.",
+            "8 years of experience in software development."
+        ],
+        "preferred_qualifications": [
+            "Experience with Apache Spark, Flink, Beam, Airflow, or BigQuery/Snowflake or other similar infrastructure.",
+            "Experience developing, debugging, and supporting large-scale data pipelines.",
+            "Experience with distributed data processing frameworks and workflow orchestration tools.",
+            "Experience in Go/C++.",
+            "Experience in a technical Lead or similar role, ideally setting technical direction for a small group of executive and junior software engineer.",
+            "Ability to address daily business data requirements, ensure that development obstacles are cleared to maintain the Gemini App's changing growth."
+        ],
+        "responsibilities": [
+            "Work closely with our Data Science counterparts in definition and driving the goals for a Modern Data Warehouse.",
+            "Architect and build scalable batch and real-time pipelines that power experimentation, product analytics, and ML/AI training loops.",
+            "Own data quality, reliability, and observability end-to-end, including defining and operating Service Level Agreements (SLAs)/ Service Level Objectives (SLOs) for critical production datasets.",
+            "Mentor and grow other engineers, raising the technical bar through design reviews, code reviews, and actionable feedback.",
+            "Drive cross-functional engineering initiatives that span multiple teams, translating ambiguous requirements into technical designs."
+        ],
+        "about_the_job": "The Gemini Apps Data Engineering team architects and operates the data pipelines that deliver critical telemetry across all Gemini surfaces. We combine deep technical expertise with Google-scale operating experience to solve the unique data issues inherent in building a transformative, global product during a time of massive growth! Gemini's user base is growing continuously and our traffic has sometimes even doubled just over the course of a week. In this role, you will provide the technical leadership necessary to scale our infrastructure. You will architect durable data products and drive critical engineering initiatives across multiple teams to ensure we continue delivering metrics and training data quickly, reliably, and accurately at a massive global scale. Leveraging your experience in building and running scalable systems, and utilizing modern data warehouse infrastructure at Google, you will lead a small team of executive and junior engineers to scale the data pipelines that drive Gemini Apps's analytics and power model and product improvement. You will work directly with key stakeholders, including our Data Science, model release, model quality, and feature teams, as well as teams across DeepMind, to identify and solve key problems to help make Gemini the next billion-user product. Artificial intelligence will be one of humanity's most transformative inventions. At Google DeepMind, we are a pioneering AI lab with exceptional interdisciplinary teams focused on advancing AI development to solve complex global challenges and accelerate high-quality product innovation for billions of users. We use our technologies for widespread public benefit and scientific discovery, ensuring safety and ethics are always our highest priority.",
+        "source_url": "https://www.google.com/about/careers/applications/jobs/results/141902048390980294-staff-software-engineer-gemini-app-data-engineering-deepmind?company=DeepMind&utm_source=deepmind&utm_medium=jobposting&page=5"
+    },
+    {
+        "job_title": "Research Engineer, Humanoids, DeepMind",
+        "minimum_qualifications": [
+            "Bachelor's degree in Computer Science or a related technical field, or equivalent practical experience.",
+            "2 years of experience in robotics, specifically with developing and maintaining robot software systems.",
+            "Experience using ML Frameworks, specifically JAX."
+        ],
+        "preferred_qualifications": [
+            "Experience of applying ML methods in the context of robotics, and follows the latest state-of-the-art research in Foundation Models.",
+            "Proven track record of owning technical problems and debug complex systems end-to-end.",
+            "Python and C++ programming skills.",
+            "Passion for AI and wants to work in a fluid team trying to connect Gemini-intelligence to physical robots."
+        ],
+        "responsibilities": [
+            "Design, develop, and maintain robotic setups for continuous robot learning experiments.",
+            "Collaborate with partner teams to co-develop infrastructure, tooling, and processes, to accelerate robot learning research.",
+            "Develop and maintain verification methods for a fleet of robots.",
+            "Work with cross-functional teams in a dynamic environment, quickly prototype, iterate, and deliver robot capabilities in real-world applications.",
+            "Keep track of major changes and trends in infrastructure and enable adoption of new frameworks and systems without significant impact on development work."
+        ],
+        "about_the_job": "At Google, research-focused Software Engineers are embedded throughout the company, allowing them to setup large-scale tests and deploy promising ideas quickly and broadly. Ideas may come from internal projects as well as from collaborations with research programs at partner universities and technical institutes all over the world.\n\nFrom creating experiments and prototyping implementations to designing new architectures, engineers work on real-world problems including artificial intelligence, data mining, natural language processing, hardware and software performance analysis, improving compilers for mobile platforms, as well as core search and much more. But you stay connected to your research roots as an active contributor to the wider research community by partnering with universities and publishing papers.\n\nAt DeepMind Robotics, we are pioneering bringing AI to the physical world. We are powering an era of physical agents, enabling robots to perceive, plan, think, use tools, and act to better solve complex issues.\n\nWhat we do:\n* Build foundation models\n* Advance the state of the art\n* Deploy at scale\n\nAs a Research Engineer, you will manage the practical issues of a growing fleet of robots. You will have experience working with complex systems, the ability to build introspection tools, and debug issues across the system. You will build and maintain critical infrastructure to standardize and strengthen robot platforms to accelerate research.\n\nArtificial intelligence will be one of humanity's most transformative inventions. At Google DeepMind, we are a pioneering AI lab with exceptional interdisciplinary teams focused on advancing AI development to solve complex global challenges and accelerate high-quality product innovation for billions of users. We use our technologies for widespread public benefit and scientific discovery, ensuring safety and ethics are always our highest priority.\n\nWe are pushing the boundaries across multiple domains. Our global teams offer diverse learning opportunities and varied career pathways for those driven to achieve exceptional results through collective effort.",
+        "source_url": "https://www.google.com/about/careers/applications/jobs/results/105870811830592198-research-engineer-humanoids-deepmind?company=DeepMind&utm_source=deepmind&utm_medium=jobposting&page=5"
+    },
+    {
+        "job_title": "Research Engineer, Pretraining, DeepMind",
+        "minimum_qualifications": [
+            "Bachelor's degree in Computer Science, Mathematics, Applied Stats, Machine Learning, a related field, or equivalent practical experience.",
+            "5 years of experience with inference-optimized model design.",
+            "Experience working with product teams."
+        ],
+        "preferred_qualifications": [
+            "Experience conducting applied research to improve the quality and training/serving efficiency of large transformer-based models.",
+            "Experience with fine-tuning large models (e.g., supervised, RLHF)."
+        ],
+        "responsibilities": [
+            "Focus on inference-optimized model design for Gemini pretraining.",
+            "Understand common Accelerated Linear Algebra (XLA) primitives and how JAX code runs on TPUs in practice.",
+            "Work across the Large Language Model (LLM) preparation stack (e.g., pretraining, fine tuning, serving) to deliver strong models."
+        ],
+        "about_the_job": "At Google, research-focused Software Engineers are embedded throughout the company, allowing them to setup large-scale tests and deploy promising ideas quickly and broadly. Ideas may come from internal projects as well as from collaborations with research programs at partner universities and technical institutes all over the world. From creating experiments and prototyping implementations to designing new architectures, engineers work on real-world problems including artificial intelligence, data mining, natural language processing, hardware and software performance analysis, improving compilers for mobile platforms, as well as core search and much more. But you stay connected to your research roots as an active contributor to the wider research community by partnering with universities and publishing papers. Artificial intelligence will be one of humanity's most transformative inventions. At Google DeepMind, we are a pioneering AI lab with exceptional interdisciplinary teams focused on advancing AI development to solve complex global challenges and accelerate high-quality product innovation for billions of users. We use our technologies for widespread public benefit and scientific discovery, ensuring safety and ethics are always our highest priority. We are pushing the boundaries across multiple domains. Our global teams offer diverse learning opportunities and varied career pathways for those driven to achieve exceptional results through collective effort. Individual pay is determined by factors including job-related skills, experience, and relevant education or training. US: $174000 - $253000 (USD) + 15% bonus target + equity + benefits. Learn more about benefits at Google.",
+        "source_url": "https://www.google.com/about/careers/applications/jobs/results/78472631333855942-research-engineer-pretraining-deepmind?company=DeepMind&utm_source=deepmind&utm_medium=jobposting&page=5"
+    },
+    {
+        "job_title": "Research Engineer, Multimodal Reasoning For Information Literacy, DeepMind",
+        "minimum_qualifications": [
+            "Bachelor's degree in Computer Science, AI, ML, or equivalent practical experience.",
+            "5 years of experience developing computer vision techniques or multimodal machine learning models.",
+            "Experience in software development using Python and deep learning frameworks (e.g., Jax, TensorFlow, PyTorch).",
+            "Experience exploring, analyzing, and visualizing data."
+        ],
+        "preferred_qualifications": [
+            "Experience with Large Language Models, prompt engineering, few-shot learning, post-training techniques, and evaluations.",
+            "Experience with video understanding.",
+            "Experience in training and deployment of models.",
+            "Track record of research or engineering achievements, such as publications in peer-reviewed conferences or journals.",
+            "Excellent quantitative skills in math and statistics."
+        ],
+        "responsibilities": [
+            "Plan and perform rapid prototyping of computer vision and multimodal machine learning techniques applied to determining authenticity of media information.",
+            "Design and train multimodal models capable of complex visual reasoning.",
+            "Undertake exploratory analysis to inform experimentation and research directions.",
+            "Engage with product teams to drive the development of our research.",
+            "Implement tools, libraries, and frameworks to speed up and enable new research."
+        ],
+        "about_the_job": "At Google, research-focused Software Engineers are embedded throughout the company, allowing them to setup large-scale tests and deploy promising ideas quickly and broadly. Ideas may come from internal projects as well as from collaborations with research programs at partner universities and technical institutes all over the world. From creating experiments and prototyping implementations to designing new architectures, engineers work on real-world problems including artificial intelligence, data mining, natural language processing, hardware and software performance analysis, improving compilers for mobile platforms, as well as core search and much more. But you stay connected to your research roots as an active contributor to the wider research community by partnering with universities and publishing papers. Artificial intelligence will be one of humanity's most transformative inventions. At Google DeepMind, we are a pioneering AI lab with exceptional interdisciplinary teams focused on advancing AI development to solve complex global challenges and accelerate high-quality product innovation for billions of users. We use our technologies for widespread public benefit and scientific discovery, ensuring safety and ethics are always our highest priority. We are pushing the boundaries across multiple domains. Our global teams offer diverse learning opportunities and varied career pathways for those driven to achieve exceptional results through collective effort. Individual pay is determined by factors including job-related skills, experience, and relevant education or training. US: $174000 - $253000 (USD) + 15% bonus target + equity + benefits. Learn more about benefits at Google.",
+        "source_url": "https://www.google.com/about/careers/applications/jobs/results/143298054496101062-research-engineer-multimodal-reasoning-for-information-literacy-deepmind?company=DeepMind&utm_source=deepmind&utm_medium=jobposting"
+    },
+    {
+        "job_title": "Research Engineer, Winslow, DeepMind",
+        "minimum_qualifications": [
+            "Bachelor's degree in Computer Science, Artificial Intelligence, Machine Learning, Computer Vision, Speech Processing, or equivalent practical experience.",
+            "3 years of experience in deep learning research and development, including generative AI, audio and video synthesis, diffusion models, and autoregressive generative models.",
+            "One or more scientific publications in venues like NeurIPS, ICML, ICLR, or equivalent industry contributions."
+        ],
+        "preferred_qualifications": [
+            "Experience building and deploying spoken dialog systems.",
+            "Experience with reinforcement learning (RL) and post-training with LLMs, especially spoken LLMs.",
+            "Excellent engineering skills in Python and deep learning frameworks (e.g., JAX, PyTorch), with a track record of building high-quality research prototypes and systems.",
+            "Motivated to pick up technologies to adapt and move quickly."
+        ],
+        "responsibilities": [
+            "Be a part of team of scientists, engineers, machine learning experts, and more, working together to advance in artificial intelligence.",
+            "Use our technologies for widespread public benefit and scientific discovery, and collaborate with others on critical issues, ensuring safety and ethics are the highest priority."
+        ],
+        "about_the_job": "At Google, research-focused Software Engineers are embedded throughout the company, allowing them to setup large-scale tests and deploy promising ideas quickly and broadly. Ideas may come from internal projects as well as from collaborations with research programs at partner universities and technical institutes all over the world. From creating experiments and prototyping implementations to designing new architectures, engineers work on real-world problems including artificial intelligence, data mining, natural language processing, hardware and software performance analysis, improving compilers for mobile platforms, as well as core search and much more. But you stay connected to your research roots as an active contributor to the wider research community by partnering with universities and publishing papers. In this role, you will join a fast-paced audio and language team that is fundamental to Google DeepMind's work on Gemini's audio capabilities, on music generation, on speech synthesis, on multimodal tokenization, and on diffusion theory. You will dive into both theory and code: to drive independent research initiatives, work with teams on AI, and develop solutions to fundamental questions in machine learning and AI. Artificial intelligence will be one of humanity's most transformative inventions. At Google DeepMind, we are a pioneering AI lab with exceptional interdisciplinary teams focused on advancing AI development to solve complex global challenges and accelerate high-quality product innovation for billions of users. We use our technologies for widespread public benefit and scientific discovery, ensuring safety and ethics are always our highest priority. We are pushing the boundaries across multiple domains. Our global teams offer diverse learning opportunities and varied career pathways for those driven to achieve exceptional results through collective effort. Individual pay is determined by factors including job-related skills, experience, and relevant education or training.",
+        "source_url": "https://www.google.com/about/careers/applications/jobs/results/76114032863388358-research-engineer-winslow-deepmind?company=DeepMind&utm_source=deepmind&utm_medium=jobposting"
+    },
+    {
+        "job_title": "Research Engineer, AGI Safety and Alignment, DeepMind",
+        "minimum_qualifications": [
+            "Bachelor's degree in Computer Science, a related Software Engineering field, or equivalent practical experience.",
+            "3 years of experience in software development, ML engineering, or ML research.",
+            "Experience working with research teams."
+        ],
+        "preferred_qualifications": [
+            "Experience conducting or contributing to applied research to improve the safety and alignment of frontier AI systems.",
+            "Experience with training large models (e.g., supervised fine-tuning, RLHF)."
+        ],
+        "responsibilities": [
+            "Research new alignment methods, studying alignment failures, and applying AGI-scalable alignment techniques to frontier models.",
+            "Develop adversarially robust AGI control systems and implement them in production.",
+            "Research interpretability techniques to understand what AI systems are thinking.",
+            "Work with product teams to ensure that our research is correctly adopted."
+        ],
+        "about_the_job": "The Artificial General Intelligence (AGI) Safety and Alignment Team (ASAT) aims to reduce existential and catastrophic risk from AGI and eventually Artificial Superintelligence (ASI). We research novel techniques and work with the rest of GDM and Google to apply them. ASAT has sub-teams specialising in making future Geminis more thoroughly aligned by finding and fixing sources of misalignment and exploring alignment techniques with better generalization. Preparing for future AGI risks by simulating them today and using interpretability techniques to understand AI and solve practical problems like model forensics or eval awareness. Building control for GDM's agents as defense-in-depth against potential misaligned internal deployments. Researching training techniques, like debate, for aligning superhuman AI and ways to retain, improve, and measure monitorability. Researching and implementing ways to assess the ways in which a given model might be imperfectly aligned and developing and implementing tools and AI assistance that accelerates safety research.\n\nArtificial intelligence will be one of humanity's most transformative inventions. At DeepMind, we are a pioneering AI lab with exceptional interdisciplinary teams focused on advancing AI development to solve complex global challenges and accelerate high-quality product innovation for billions of users. We use our technologies for widespread public benefit and scientific discovery, ensuring safety and ethics are always our highest priority.\n\nWe are pushing the boundaries across multiple domains. Our global teams offer learning opportunities and varied career pathways for those driven to achieve exceptional results through collective effort.",
+        "source_url": "https://www.google.com/about/careers/applications/jobs/results/95635593379095238-research-engineer-agi-safety-and-alignment-deepmind?company=DeepMind&utm_source=deepmind&utm_medium=jobposting&page=2"
+    },
+    {
+        "job_title": "Research Engineer, AGI Safety and Alignment, DeepMind",
+        "minimum_qualifications": [
+            "Bachelor's degree in Computer Science, a related Software Engineering field, or equivalent practical experience.",
+            "3 years of experience in software development, ML engineering, or ML research.",
+            "Experience working with research teams."
+        ],
+        "preferred_qualifications": [
+            "Experience conducting or contributing to applied research to improve the safety and alignment of frontier AI systems.",
+            "Experience with training large models (e.g., supervised finetuning, RLHF)."
+        ],
+        "responsibilities": [
+            "Research new alignment methods, studying alignment failures, and applying AGI-scalable alignment techniques to frontier models.",
+            "Develop adversarially robust AGI control systems and implement them in production.",
+            "Research interpretability techniques to understand what AI systems are 'thinking'.",
+            "Work with product teams to ensure that our research is correctly adopted."
+        ],
+        "about_the_job": "The Artificial General Intelligence (AGI) Safety and Alignment Team (ASAT) aims to reduce existential and catastrophic risk from AGI and eventually Artificial Superintelligence (ASI). We research novel techniques and work with the rest of GDM and Google to apply them. We advise executive leadership on safety. ASAT has sub-teams specialising in making future Geminis more thoroughly aligned by finding and fixing sources of misalignment and exploring alignment techniques with better generalization. Preparing for future AGI risks by simulating them today and using interpretability techniques to understand AI and solve practical problems like model forensics or eval awareness. Building control for GDM's agents as defense-in-depth against potential misaligned internal deployments. Researching training techniques, like debate, for aligning superhuman AI and ways to retain, improve, and measure monitorability. Researching and implementing ways to assess the ways in which a given model might be imperfectly aligned and developing and implementing tools and AI assistance that accelerates safety research. Advising executive leadership on risks posed by AI systems via the frontier safety framework based on our threat models and evaluations. We are prioritising hires for deep alignment, alignment stress testing, language model interpretability, agent control, and amplified oversight. We are looking to grow our team with researchers and engineers. Depending on your background, we have opportunities available as both Research Scientists and Software Engineers. Artificial intelligence will be one of humanity's most transformative inventions. At Google DeepMind, we are a pioneering AI lab with exceptional interdisciplinary teams focused on advancing AI development to solve complex global challenges and accelerate high-quality product innovation for billions of users. We use our technologies for widespread public benefit and scientific discovery, ensuring safety and ethics are always our highest priority. We are pushing the boundaries across multiple domains. Our global teams offer diverse learning opportunities and varied career pathways for those driven to achieve exceptional results through collective effort.",
+        "source_url": "https://www.google.com/about/careers/applications/jobs/results/102552346151527110-research-engineer-agi-safety-and-alignment-deepmind?company=DeepMind&utm_source=deepmind&utm_medium=jobposting&page=3"
+    },
+    {
+        "job_title": "Research Engineer, DeepMind",
+        "minimum_qualifications": [
+            "Bachelor's degree in Computer Science, a related Software Engineering field, or equivalent practical experience.",
+            "8 years of experience in software development with Python.",
+            "Experience building and developing large-scale infrastructure or distributed systems."
+        ],
+        "preferred_qualifications": [
+            "Experience in life sciences, cybersecurity, materials, or AI within education and healthcare.",
+            "Experience with Generative AI, large language models (LLMs), or conversational AI systems, especially in the development of AI agents or agentic frameworks.",
+            "Proficiency with MapReduce, Hadoop, Spark, Flume, Hive, Impala, SparkSQL, BigQuery."
+        ],
+        "responsibilities": [
+            "Design and build the self-improving agent framework -- the scaffolding, diagnostic tools, and feedback loops that enable continuous quality improvement across Science, Cybersecurity, and Coding agents.",
+            "Engage directly with enterprise customers, public sector teams, and academic partners to deploy, monitor, and improve agents in real-world settings.",
+            "Build automated evaluation pipelines that capture real-world agent quality beyond lab benchmarks.",
+            "Develop cross-engagement learning systems that generalize insights from individual deployments to improve all agents at scale.",
+            "Identify and characterize core model limitations with empirical evidence, partnering with GDM research teams to drive foundational improvements while guiding the transition from direct customer engagements to a scalable, self-improving deployment model."
+        ],
+        "about_the_job": "At Google DeepMind our mission is to build the world's first general-purpose learning agent. Central to this mission is the complex task of measuring the intelligence of our prototypes. As a Research Engineer, you will be working with the cutting edge AI agents developed by our exceptional team of Machine Learning and Neuroscience research scientists. Your responsibilities will include everything from creating systems for agent testing using 2D and 3D games to developing test problems within physics simulators. You will create graphical visualization of results, build competitive agent leaderboards and test new algorithms on robots. To succeed in this role you will need to have a strong foundation in software engineering and enjoy working on a wide range of challenging problems within a mission-driven team.\n\nGoogle DeepMind's Science and Strategic Initiatives (SSI) unit is building a team focused on commercialization and real-world academic impact of AI models and agents across three domains: Science, Cybersecurity, and Coding Agents.\n\nTo achieve impact at scale, we are building a self-improving agent framework -- a system that can automatically diagnose failure modes, generalize learnings across customer engagements, and continuously improve agent quality at scale. You will be at the foundation of this effort, working directly with enterprise customers and academic researchers to understand product opportunities directly, while simultaneously building the infrastructure to optimize and improve our products quickly and accurately.\n\nArtificial intelligence will be one of humanity's most transformative inventions. At Google DeepMind, we are a pioneering AI lab with exceptional interdisciplinary teams focused on advancing AI development to solve complex global challenges and accelerate high-quality product innovation for billions of users. We use our technologies for widespread public benefit and scientific discovery, ensuring safety and ethics are always our highest priority.\n\nWe are pushing the boundaries across multiple domains. Our global teams offer diverse learning opportunities and varied career pathways for those driven to achieve exceptional results through collective effort.",
+        "source_url": "https://www.google.com/about/careers/applications/jobs/results/113676455329571526-research-engineer-deepmind?company=DeepMind&utm_source=deepmind&utm_medium=jobposting&page=2"
+    }
+]
